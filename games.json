@@ -1,0 +1,1408 @@
+{
+  "profile": {
+    "name": "김승범",
+    "handle": "player_one",
+    "tagline": "장르 불문 50+ 타이틀 엔딩 · LoL 다이아 서포터 · 초등학생 때부터 FC 온라인 챌린지1",
+    "intro": "콘솔을 따로 두지 않고 PC에 패드를 물려 즐기는 플레이어. 장르를 가리지 않고 깊게 파고들며, 한 게임을 오래 붙잡고 메타 변화를 추적하는 걸 좋아합니다. (패드 4개째 — 3개는 플레이 중 수명을 다함)",
+    "updated": "2026-07-23"
+  },
+  "games": [
+    {
+      "title": "리그 오브 레전드",
+      "platform": "PC",
+      "genre": [
+        "AOS"
+      ],
+      "playtime_hours": null,
+      "cleared": false,
+      "rating": null,
+      "note": "서포터 · 시즌3부터 10년+ · 역대 최고 다이아3(2023), 현재 에메랄드2 · 요즘은 솔랭 대신 칼바람 증강 위주 · 좀놀던괴물#KR1",
+      "tier": "deep"
+    },
+    {
+      "title": "FC 온라인",
+      "platform": "PC",
+      "genre": [
+        "스포츠"
+      ],
+      "playtime_hours": null,
+      "cleared": false,
+      "rating": null,
+      "note": "초등학생 때부터 이어온 장수 유저(Lv.2622) · 공식경기 최고 챌린지1",
+      "tier": "deep"
+    },
+    {
+      "title": "Monster Hunter: World",
+      "platform": "Steam",
+      "genre": [
+        "액션RPG",
+        "헌팅액션"
+      ],
+      "playtime_hours": 440.3,
+      "cleared": true,
+      "rating": null,
+      "note": "무기 14종의 리듬을 몸에 익히는 것 자체가 성장. 440시간이 지루하지 않은 이유.",
+      "tier": "deep"
+    },
+    {
+      "title": "The Binding of Isaac: Rebirth",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "액션"
+      ],
+      "playtime_hours": 280.8,
+      "cleared": true,
+      "rating": null,
+      "note": "아이템 하나가 판을 뒤집는 시너지의 무한 변주. 로그라이크의 원형.",
+      "tier": "deep"
+    },
+    {
+      "title": "Slay the Spire 2",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "덱빌딩"
+      ],
+      "playtime_hours": 234.5,
+      "cleared": true,
+      "rating": null,
+      "note": "완성된 덱빌딩에 새 유물·캐릭터로 변수를 더한 속편. 여전히 '한 판만 더'.",
+      "tier": "deep"
+    },
+    {
+      "title": "Football Manager 2020",
+      "platform": "Steam",
+      "genre": [
+        "스포츠",
+        "경영시뮬"
+      ],
+      "playtime_hours": 218.1,
+      "cleared": false,
+      "rating": null,
+      "note": "숫자 뒤의 서사를 상상하게 만드는 게임. 전술 한 줄이 시즌을 바꾼다.",
+      "tier": "deep"
+    },
+    {
+      "title": "MONSTER HUNTER RISE",
+      "platform": "Steam",
+      "genre": [
+        "액션RPG",
+        "헌팅액션"
+      ],
+      "playtime_hours": 148.5,
+      "cleared": true,
+      "rating": null,
+      "note": "가루쿠·연익충으로 기동성을 끌어올려 사냥 템포를 재설계한 변주.",
+      "tier": "deep"
+    },
+    {
+      "title": "Slay the Spire",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "덱빌딩"
+      ],
+      "playtime_hours": 138.6,
+      "cleared": true,
+      "rating": null,
+      "note": "주어진 카드를 최적화하는 의사결정의 반복. 덱빌딩 로그라이크의 교과서.",
+      "tier": "deep"
+    },
+    {
+      "title": "Valheim",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "오픈월드"
+      ],
+      "playtime_hours": 91.3,
+      "cleared": true,
+      "rating": null,
+      "note": "절차적 세계에 건축·항해·보스를 얹어 '다음 목표'가 자연히 생기는 생존게임.",
+      "tier": "deep"
+    },
+    {
+      "title": "Stardew Valley",
+      "platform": "Steam",
+      "genre": [
+        "경영시뮬",
+        "RPG"
+      ],
+      "playtime_hours": 82.2,
+      "cleared": false,
+      "rating": null,
+      "note": "끝이 없는 대신 목표를 스스로 세우게 만든다. 자율성을 존중하는 설계.",
+      "tier": "deep"
+    },
+    {
+      "title": "Dead Cells",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "메트로배니아"
+      ],
+      "playtime_hours": 73.2,
+      "cleared": true,
+      "rating": null,
+      "note": "메트로배니아의 탐험과 로그라이크의 반복을 합친 손맛 중심 액션.",
+      "tier": "deep"
+    },
+    {
+      "title": "Frostpunk",
+      "platform": "Steam",
+      "genre": [
+        "경영시뮬",
+        "전략"
+      ],
+      "playtime_hours": 61.6,
+      "cleared": true,
+      "rating": null,
+      "note": "생존을 위해 도덕을 저울질하게 만드는 도시 경영. 선택의 무게가 다르다.",
+      "tier": "deep"
+    },
+    {
+      "title": "ELDEN RING",
+      "platform": "Steam",
+      "genre": [
+        "소울라이크",
+        "액션RPG"
+      ],
+      "playtime_hours": 61.6,
+      "cleared": true,
+      "rating": null,
+      "note": "오픈월드와 소울의 밀도를 억지 없이 합쳤다. 죽음이 벌이 아니라 학습.",
+      "tier": "deep"
+    },
+    {
+      "title": "DAVE THE DIVER",
+      "platform": "Steam",
+      "genre": [
+        "어드벤처",
+        "경영시뮬"
+      ],
+      "playtime_hours": 61,
+      "cleared": true,
+      "rating": null,
+      "note": "낮의 잠수와 밤의 경영, 성격 다른 두 루프가 서로를 지루하지 않게 받친다.",
+      "tier": "deep"
+    },
+    {
+      "title": "Sephiria",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "전략"
+      ],
+      "playtime_hours": 58.3,
+      "cleared": true,
+      "rating": null,
+      "note": "부대 배치와 자원 관리가 맞물리는 전략 로그라이크. 판마다 다른 최적해.",
+      "tier": "deep"
+    },
+    {
+      "title": "Skul: The Hero Slayer",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "액션"
+      ],
+      "playtime_hours": 56.1,
+      "cleared": true,
+      "rating": null,
+      "note": "머리를 바꿔 클래스를 통째로 교체하는 로그라이크 액션. 조합 재미가 핵심.",
+      "tier": "deep"
+    },
+    {
+      "title": "No Rest for the Wicked",
+      "platform": "Steam",
+      "genre": [
+        "액션RPG",
+        "소울라이크"
+      ],
+      "playtime_hours": 49.4,
+      "cleared": true,
+      "rating": null,
+      "note": "쿼터뷰에 소울라이크의 무게를 이식한 액션 RPG. 타격의 밀도가 좋다.",
+      "tier": "deep"
+    },
+    {
+      "title": "Deep Rock Galactic",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "FPS"
+      ],
+      "playtime_hours": 49.1,
+      "cleared": false,
+      "rating": null,
+      "note": "파괴 가능한 동굴 + 직업별 역할 분담. 협동이 연출이 아니라 필수인 구조.",
+      "tier": "deep"
+    },
+    {
+      "title": "Enshrouded",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "액션RPG"
+      ],
+      "playtime_hours": 47.6,
+      "cleared": true,
+      "rating": null,
+      "note": "복셀 건축과 액션 RPG를 합친 생존물. 지형을 직접 깎는 자유도가 강점.",
+      "tier": "deep"
+    },
+    {
+      "title": "Palworld",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "오픈월드"
+      ],
+      "playtime_hours": 45.4,
+      "cleared": true,
+      "rating": null,
+      "note": "수집에 생존·자동화를 얹어 '펠이 곧 노동력'이 되는 시스템의 영리함.",
+      "tier": "deep"
+    },
+    {
+      "title": "Hades",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "액션"
+      ],
+      "playtime_hours": 42.3,
+      "cleared": true,
+      "rating": null,
+      "note": "패배가 곧 서사 진행. 로그라이크의 반복 피로를 이야기로 푼 정답.",
+      "tier": "deep"
+    },
+    {
+      "title": "Hollow Knight",
+      "platform": "Steam",
+      "genre": [
+        "메트로배니아",
+        "액션"
+      ],
+      "playtime_hours": 41.1,
+      "cleared": true,
+      "rating": null,
+      "note": "여백으로 분위기를 쌓는 메트로배니아. 탐험의 불안과 성취가 정교히 교차.",
+      "tier": "deep"
+    },
+    {
+      "title": "Balatro",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "덱빌딩"
+      ],
+      "playtime_hours": 40.2,
+      "cleared": true,
+      "rating": null,
+      "note": "포커라는 익숙한 규칙을 조커 조합으로 파괴하는 순간 중독이 시작된다.",
+      "tier": "deep"
+    },
+    {
+      "title": "DJMAX RESPECT V",
+      "platform": "Steam",
+      "genre": [
+        "리듬"
+      ],
+      "playtime_hours": 37.9,
+      "cleared": false,
+      "rating": null,
+      "note": "판정과 패턴 암기의 쾌감. 국산 리듬게임의 완성형 아카이브.",
+      "tier": "deep"
+    },
+    {
+      "title": "Horizon Zero Dawn™ Complete Edition",
+      "platform": "Steam",
+      "genre": [
+        "액션RPG",
+        "오픈월드"
+      ],
+      "playtime_hours": 36,
+      "cleared": true,
+      "rating": null,
+      "note": "기계 동물의 약점을 파훼하는 전투 설계가 오픈월드의 반복을 지탱한다.",
+      "tier": "deep"
+    },
+    {
+      "title": "V Rising",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "액션RPG"
+      ],
+      "playtime_hours": 30.7,
+      "cleared": true,
+      "rating": null,
+      "note": "뱀파이어 콘셉트를 생존·기지건설에 녹였다. 낮/밤 제약이 곧 전략.",
+      "tier": "deep"
+    },
+    {
+      "title": "Monster Hunter Wilds",
+      "platform": "Steam",
+      "genre": [
+        "액션RPG",
+        "헌팅액션"
+      ],
+      "playtime_hours": 30.5,
+      "cleared": true,
+      "rating": null,
+      "note": "무리 생태와 이음새 없는 필드로 '살아있는 사냥터'를 지향한 최신작.",
+      "tier": "deep"
+    },
+    {
+      "title": "Sea of Thieves",
+      "platform": "Steam",
+      "genre": [
+        "어드벤처",
+        "협동"
+      ],
+      "playtime_hours": 29.6,
+      "cleared": false,
+      "rating": null,
+      "note": "배 조작이 통째로 협동 미니게임. 목적보다 항해 그 자체가 재미.",
+      "tier": "deep"
+    },
+    {
+      "title": "Backpack Hero",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "퍼즐"
+      ],
+      "playtime_hours": 28.1,
+      "cleared": true,
+      "rating": null,
+      "note": "가방 칸 배치가 곧 빌드. 인벤토리 관리를 로그라이크로 만든 발상.",
+      "tier": "deep"
+    },
+    {
+      "title": "Have a Nice Death",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "액션"
+      ],
+      "playtime_hours": 25,
+      "cleared": true,
+      "rating": null,
+      "note": "과로에 시달리는 사신이라는 설정부터 매력. 스타일리시 로그라이크 액션.",
+      "tier": "deep"
+    },
+    {
+      "title": "Apex Legends",
+      "platform": "Steam",
+      "genre": [
+        "FPS",
+        "배틀로얄"
+      ],
+      "playtime_hours": 22.5,
+      "cleared": false,
+      "rating": null,
+      "note": "이동·핑 시스템으로 팀 배틀로얄의 소통 비용을 낮춘 설계가 인상적.",
+      "tier": "deep"
+    },
+    {
+      "title": "Project Zomboid",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "시뮬레이션"
+      ],
+      "playtime_hours": 21.8,
+      "cleared": false,
+      "rating": null,
+      "note": "'당신은 죽는다'가 전제. 생존의 모든 변수를 시뮬레이션하는 하드코어.",
+      "tier": "deep"
+    },
+    {
+      "title": "Ship of Fools",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "협동"
+      ],
+      "playtime_hours": 21.7,
+      "cleared": true,
+      "rating": null,
+      "note": "둘이 배 한 척을 지키는 협동 로그라이크. 역할 분담이 곧 재미.",
+      "tier": "deep"
+    },
+    {
+      "title": "Lethal Company",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "호러"
+      ],
+      "playtime_hours": 21.7,
+      "cleared": false,
+      "rating": null,
+      "note": "공포와 실적 압박을 협동에 얹었다. 무전 너머의 비명이 콘텐츠.",
+      "tier": "deep"
+    },
+    {
+      "title": "Terraria",
+      "platform": "Steam",
+      "genre": [
+        "샌드박스",
+        "생존"
+      ],
+      "playtime_hours": 21.4,
+      "cleared": true,
+      "rating": null,
+      "note": "2D 샌드박스의 깊이. 탐험→강화→보스의 순환이 수백 시간을 지탱한다.",
+      "tier": "deep"
+    },
+    {
+      "title": "Assassin's Creed II",
+      "platform": "Steam",
+      "genre": [
+        "액션어드벤처",
+        "오픈월드"
+      ],
+      "playtime_hours": 20.9,
+      "cleared": true,
+      "rating": null,
+      "note": "도시 자체가 놀이터인 파쿠르. 시리즈 정체성을 완성한 작품.",
+      "tier": "deep"
+    },
+    {
+      "title": "My Time at Portia",
+      "platform": "Steam",
+      "genre": [
+        "경영시뮬",
+        "RPG"
+      ],
+      "playtime_hours": 20.7,
+      "cleared": false,
+      "rating": null,
+      "note": "제작·수집 루프에 마을 서사를 얹은 힐링 경영. 목표 제시가 친절하다.",
+      "tier": "deep"
+    },
+    {
+      "title": "Assassin's Creed",
+      "platform": "Steam",
+      "genre": [
+        "액션어드벤처"
+      ],
+      "playtime_hours": 20.2,
+      "cleared": true,
+      "rating": null,
+      "note": "잠입·군중 은신이라는 시리즈의 핵심 아이디어가 처음 제시된 원점.",
+      "tier": "deep"
+    },
+    {
+      "title": "Escape From Duckov",
+      "platform": "Steam",
+      "genre": [
+        "슈터",
+        "익스트랙션"
+      ],
+      "playtime_hours": 19.3,
+      "cleared": false,
+      "rating": null,
+      "note": "익스트랙션 슈터의 긴장을 오리 콘셉트로 진입장벽만 낮췄다.",
+      "tier": "deep"
+    },
+    {
+      "title": "Raft",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "크래프팅"
+      ],
+      "playtime_hours": 18.1,
+      "cleared": true,
+      "rating": null,
+      "note": "표류라는 제약 하나로 생존·확장의 방향을 명확히 잡은 협동 크래프팅.",
+      "tier": "deep"
+    },
+    {
+      "title": "Once Human",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "오픈월드"
+      ],
+      "playtime_hours": 16.9,
+      "cleared": false,
+      "rating": null,
+      "note": "생존에 오픈월드 MMO와 기괴한 세계관을 결합. 변형 시스템이 특징.",
+      "tier": "deep"
+    },
+    {
+      "title": "Grounded",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "크래프팅"
+      ],
+      "playtime_hours": 15.7,
+      "cleared": false,
+      "rating": null,
+      "note": "'미니어처가 된 뒷마당'이라는 스케일 전환으로 익숙한 생존을 신선하게.",
+      "tier": "deep"
+    },
+    {
+      "title": "Ori and the Will of the Wisps",
+      "platform": "Steam",
+      "genre": [
+        "메트로배니아",
+        "플랫포머"
+      ],
+      "playtime_hours": 15.6,
+      "cleared": true,
+      "rating": null,
+      "note": "이동 그 자체가 쾌감인 메트로배니아. 연출과 조작감의 합이 뛰어나다.",
+      "tier": "deep"
+    },
+    {
+      "title": "Conan Exiles Enhanced",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "오픈월드"
+      ],
+      "playtime_hours": 13.8,
+      "cleared": false,
+      "rating": null,
+      "note": "노출된 생존 규칙 위에 건축·정복을 얹은 오픈월드. 자유도가 크다.",
+      "tier": "deep"
+    },
+    {
+      "title": "Abiotic Factor",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "협동"
+      ],
+      "playtime_hours": 13.5,
+      "cleared": false,
+      "rating": null,
+      "note": "연구시설에 갇힌 과학자들의 생존 크래프팅. B급 감성의 협동물.",
+      "tier": "deep"
+    },
+    {
+      "title": "We Were Here Forever",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "퍼즐"
+      ],
+      "playtime_hours": 13.5,
+      "cleared": true,
+      "rating": null,
+      "note": "서로 다른 정보를 말로 맞춰야 풀리는 협동 퍼즐. 소통이 곧 메커닉.",
+      "tier": "deep"
+    },
+    {
+      "title": "Baldur's Gate 3",
+      "platform": "Steam",
+      "genre": [
+        "RPG",
+        "턴제전략"
+      ],
+      "playtime_hours": 13.3,
+      "cleared": false,
+      "rating": null,
+      "note": "선택이 상태로 남아 회차마다 다른 이야기가 열리는 RPG의 새 기준.",
+      "tier": "deep"
+    },
+    {
+      "title": "Returnal™",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "슈터"
+      ],
+      "playtime_hours": 12.9,
+      "cleared": true,
+      "rating": null,
+      "note": "로그라이크의 반복을 탄막 슈팅과 심리 서사로 재해석한 실험작.",
+      "tier": "deep"
+    },
+    {
+      "title": "Football Manager 2020 Touch",
+      "platform": "Steam",
+      "genre": [
+        "스포츠",
+        "경영시뮬"
+      ],
+      "playtime_hours": 12.7,
+      "cleared": false,
+      "rating": null,
+      "note": "본편의 핵심만 남긴 경량판. 전술 실험을 빠르게 돌리기 좋다.",
+      "tier": "deep"
+    },
+    {
+      "title": "CloverPit",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크"
+      ],
+      "playtime_hours": 12.6,
+      "cleared": true,
+      "rating": null,
+      "note": "슬롯머신을 로그라이크로 만든 도박 호러. 탐욕이 곧 게임 루프.",
+      "tier": "deep"
+    },
+    {
+      "title": "Kena: Bridge of Spirits",
+      "platform": "Steam",
+      "genre": [
+        "액션어드벤처"
+      ],
+      "playtime_hours": 12,
+      "cleared": true,
+      "rating": null,
+      "note": "픽사급 연출에 정통 액션어드벤처의 기본기를 갖춘 데뷔작.",
+      "tier": "deep"
+    },
+    {
+      "title": "Deep Rock Galactic: Survivor",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "뱀서라이크"
+      ],
+      "playtime_hours": 11.9,
+      "cleared": true,
+      "rating": null,
+      "note": "원작 세계관을 뱀서라이크로 옮긴 스핀오프. 짧고 강한 도파민.",
+      "tier": "deep"
+    },
+    {
+      "title": "Remnant II",
+      "platform": "Steam",
+      "genre": [
+        "소울라이크",
+        "슈터"
+      ],
+      "playtime_hours": 11.6,
+      "cleared": true,
+      "rating": null,
+      "note": "소울라이크의 무게에 총기와 절차적 생성을 얹은 협동 슈터 RPG.",
+      "tier": "deep"
+    },
+    {
+      "title": "Tails of Iron",
+      "platform": "Steam",
+      "genre": [
+        "액션RPG",
+        "어드벤처"
+      ],
+      "playtime_hours": 11,
+      "cleared": true,
+      "rating": null,
+      "note": "잔혹동화풍 아트에 패링 중심 전투를 얹은 액션 RPG.",
+      "tier": "deep"
+    },
+    {
+      "title": "Human Fall Flat",
+      "platform": "Steam",
+      "genre": [
+        "퍼즐",
+        "협동"
+      ],
+      "playtime_hours": 10.8,
+      "cleared": true,
+      "rating": null,
+      "note": "물렁한 물리 조작이 곧 웃음 포인트. 실패가 재미인 협동 퍼즐.",
+      "tier": "deep"
+    },
+    {
+      "title": "Escape the Backrooms",
+      "platform": "Steam",
+      "genre": [
+        "호러",
+        "협동"
+      ],
+      "playtime_hours": 10.8,
+      "cleared": false,
+      "rating": null,
+      "note": "밈 세계관을 협동 탈출 호러로. 분위기와 팀워크가 전부.",
+      "tier": "deep"
+    },
+    {
+      "title": "It Takes Two",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "액션어드벤처"
+      ],
+      "playtime_hours": 10.4,
+      "cleared": true,
+      "rating": null,
+      "note": "모든 구간이 새 협동 기믹. '함께'를 강제하는 설계의 교본.",
+      "tier": "deep"
+    },
+    {
+      "title": "Tribes of Midgard",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "액션RPG"
+      ],
+      "playtime_hours": 10,
+      "cleared": true,
+      "rating": null,
+      "note": "생존·디펜스·로그라이크를 짧은 세션에 압축한 협동물.",
+      "tier": "deep"
+    },
+    {
+      "title": "Two Point Hospital",
+      "platform": "Steam",
+      "genre": [
+        "경영시뮬"
+      ],
+      "playtime_hours": 9.8,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Core Keeper",
+      "platform": "Steam",
+      "genre": [
+        "샌드박스",
+        "생존"
+      ],
+      "playtime_hours": 9.2,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Darkest Dungeon®",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "턴제RPG"
+      ],
+      "playtime_hours": 9.1,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Sons Of The Forest",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "호러"
+      ],
+      "playtime_hours": 9.1,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Ori and the Blind Forest: Definitive Edition",
+      "platform": "Steam",
+      "genre": [
+        "메트로배니아",
+        "플랫포머"
+      ],
+      "playtime_hours": 9,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Dungeon Clawler",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "덱빌딩"
+      ],
+      "playtime_hours": 9,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "DREDGE",
+      "platform": "Steam",
+      "genre": [
+        "어드벤처",
+        "낚시"
+      ],
+      "playtime_hours": 8.5,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Escape Simulator",
+      "platform": "Steam",
+      "genre": [
+        "퍼즐",
+        "협동"
+      ],
+      "playtime_hours": 8.2,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Moonlighter",
+      "platform": "Steam",
+      "genre": [
+        "액션RPG",
+        "로그라이크"
+      ],
+      "playtime_hours": 7.8,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "EA SPORTS FC™ 25",
+      "platform": "Steam",
+      "genre": [
+        "스포츠"
+      ],
+      "playtime_hours": 7.8,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Death's Door",
+      "platform": "Steam",
+      "genre": [
+        "액션어드벤처"
+      ],
+      "playtime_hours": 7.7,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "9 Kings",
+      "platform": "Steam",
+      "genre": [
+        "전략",
+        "로그라이크"
+      ],
+      "playtime_hours": 7.7,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "GTFO",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "FPS"
+      ],
+      "playtime_hours": 7.6,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "SANABI",
+      "platform": "Steam",
+      "genre": [
+        "액션",
+        "플랫포머"
+      ],
+      "playtime_hours": 7.6,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Portal 2",
+      "platform": "Steam",
+      "genre": [
+        "퍼즐",
+        "협동"
+      ],
+      "playtime_hours": 7.5,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Curse of the Dead Gods",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "액션"
+      ],
+      "playtime_hours": 7.1,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Trine 5: A Clockwork Conspiracy",
+      "platform": "Steam",
+      "genre": [
+        "퍼즐",
+        "플랫포머"
+      ],
+      "playtime_hours": 6.5,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "R.E.P.O.",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "호러"
+      ],
+      "playtime_hours": 6,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "We Were Here Together",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "퍼즐"
+      ],
+      "playtime_hours": 5.9,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Scritchy Scratchy",
+      "platform": "Steam",
+      "genre": [
+        "캐주얼",
+        "시뮬레이션"
+      ],
+      "playtime_hours": 5.9,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Assassin's Creed IV Black Flag",
+      "platform": "Steam",
+      "genre": [
+        "액션어드벤처",
+        "오픈월드"
+      ],
+      "playtime_hours": 5.8,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Labyrinthine",
+      "platform": "Steam",
+      "genre": [
+        "호러",
+        "협동"
+      ],
+      "playtime_hours": 5.8,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "DARK SOULS™ III",
+      "platform": "Steam",
+      "genre": [
+        "소울라이크",
+        "액션RPG"
+      ],
+      "playtime_hours": 5.7,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Emissary Zero",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "호러"
+      ],
+      "playtime_hours": 5.5,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "PEAK",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "생존"
+      ],
+      "playtime_hours": 5.3,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Chained Together",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "플랫포머"
+      ],
+      "playtime_hours": 4.9,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Enter the Gungeon",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "슈터"
+      ],
+      "playtime_hours": 4.6,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Into the Dead: Our Darkest Days",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "호러"
+      ],
+      "playtime_hours": 4.5,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Rock Bottom",
+      "platform": "Steam",
+      "genre": [
+        "채굴",
+        "샌드박스"
+      ],
+      "playtime_hours": 4.1,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Vampire Survivors",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "뱀서라이크"
+      ],
+      "playtime_hours": 4,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Stolen Realm",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "턴제RPG"
+      ],
+      "playtime_hours": 3.9,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "PARANOIA PLACE",
+      "platform": "Steam",
+      "genre": [
+        "호러"
+      ],
+      "playtime_hours": 3.8,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Zort",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "호러",
+        "퍼즐"
+      ],
+      "playtime_hours": 3.5,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Subnautica",
+      "platform": "Steam",
+      "genre": [
+        "생존",
+        "어드벤처"
+      ],
+      "playtime_hours": 3.3,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Assassin's Creed Revelations",
+      "platform": "Steam",
+      "genre": [
+        "액션어드벤처"
+      ],
+      "playtime_hours": 3.2,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Overcooked! 2",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "파티"
+      ],
+      "playtime_hours": 2.8,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Among Us",
+      "platform": "Steam",
+      "genre": [
+        "파티",
+        "소셜추리"
+      ],
+      "playtime_hours": 2.8,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Biped",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "퍼즐"
+      ],
+      "playtime_hours": 2.8,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Station to Station",
+      "platform": "Steam",
+      "genre": [
+        "퍼즐",
+        "시뮬레이션"
+      ],
+      "playtime_hours": 2.7,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Forza Horizon 5",
+      "platform": "Steam",
+      "genre": [
+        "레이싱",
+        "오픈월드"
+      ],
+      "playtime_hours": 2.6,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Chained in the Backrooms",
+      "platform": "Steam",
+      "genre": [
+        "호러",
+        "협동"
+      ],
+      "playtime_hours": 2.6,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Liar's Bar",
+      "platform": "Steam",
+      "genre": [
+        "파티",
+        "소셜추리"
+      ],
+      "playtime_hours": 2.5,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "GONE Fishing",
+      "platform": "Steam",
+      "genre": [
+        "낚시"
+      ],
+      "playtime_hours": 2.5,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Black Squad",
+      "platform": "Steam",
+      "genre": [
+        "FPS"
+      ],
+      "playtime_hours": 2.4,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Sol Cesto",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크"
+      ],
+      "playtime_hours": 2.4,
+      "cleared": true,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Sid Meier's Civilization VI",
+      "platform": "Steam",
+      "genre": [
+        "전략",
+        "4X"
+      ],
+      "playtime_hours": 2.3,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "Ravenswatch",
+      "platform": "Steam",
+      "genre": [
+        "로그라이크",
+        "액션"
+      ],
+      "playtime_hours": 2.1,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "RV There Yet?",
+      "platform": "Steam",
+      "genre": [
+        "협동"
+      ],
+      "playtime_hours": 2.1,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    },
+    {
+      "title": "CARRION",
+      "platform": "Steam",
+      "genre": [
+        "액션",
+        "메트로배니아"
+      ],
+      "playtime_hours": 2,
+      "cleared": false,
+      "rating": null,
+      "note": "",
+      "tier": "more"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "데이브 더 다이버",
+      "fun": "낮에는 바다에서 물고기를 잡고 밤에는 초밥집을 경영하는, 성격이 완전히 다른 두 루프가 하루 단위로 맞물린다. 매 잠수가 짧아 부담이 없고, 잡은 재료가 곧장 매출로 이어져 보상이 즉각적이다.",
+      "structure": "두 루프의 '리스크-리워드 주기'가 다르게 설계돼 서로를 지루하지 않게 받쳐준다. 잠수(탐험·불확실성)에서 쌓은 긴장을 경영(계획·안정)에서 해소하고, 경영에서 생긴 목표가 다음 잠수의 동기가 된다. 세션 길이가 짧아 이탈 지점마다 명확한 보상이 놓여 있는 것도 리텐션의 핵심.",
+      "weakness": "후반으로 갈수록 미니게임과 관리 요소가 과하게 늘어 핵심 루프의 밀도가 옅어진다. '한 가지를 깊게'보다 '여러 개를 얕게'로 무게중심이 이동하는 지점이 아쉽다."
+    },
+    {
+      "title": "몬스터 헌터: 월드",
+      "fun": "몬스터의 행동을 읽고 무기 14종의 리듬을 손에 익히는 과정 자체가 콘텐츠다. 440시간을 넘겨도 새 무기를 잡으면 완전히 다른 게임이 된다.",
+      "structure": "'준비 → 사냥 → 보상 → 강화'의 긴 루프에 무기별 숙련도라는 수평적 성장축을 얹어, 캐릭터 레벨이 아니라 플레이어 실력이 곧 성장이 되게 설계했다. 소재 파밍이 다음 사냥의 동기로 순환하며 장기 리텐션을 만든다.",
+      "weakness": "초반 진입장벽이 가파르다. 무기 설명이 불친절해 시스템의 재미를 느끼기 전에 이탈하는 신규 유저가 많다."
+    },
+    {
+      "title": "슬레이 더 스파이어",
+      "fun": "매 판 주어지는 카드와 유물 조합이 달라, 같은 캐릭터라도 전략이 완전히 바뀐다. '이번 판은 어떤 덱을 만들까'라는 설계 재미가 핵심.",
+      "structure": "덱빌딩(장기 계획)과 로그라이크(단기 변수)를 결합해, 운을 실력으로 관리하는 게임으로 만들었다. 나쁜 카드도 버리거나 변형할 수 있어 '주어진 패를 최적화'하는 의사결정이 매 층 반복되고, 이게 반복 플레이의 피로를 줄인다.",
+      "weakness": "특정 유물에 승패가 크게 좌우돼, 고승률 빌드를 알게 되면 초반 선택의 긴장감이 줄어든다."
+    }
+  ]
+}

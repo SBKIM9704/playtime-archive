@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playtime Archive — 게임 플레이 이력</title>
+  <meta name="description" content="장르별 게임 플레이 이력과 클리어 기록. 플레이타임·엔딩·한 줄 평과 게임 디자인 하이라이트." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans+KR:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <div class="hero__tag" id="handle">// LOADING</div>
+      <h1 class="hero__name" id="name">Playtime Archive</h1>
+      <p class="hero__tagline" id="tagline"></p>
+      <p class="hero__intro" id="intro"></p>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats" id="stats" aria-label="요약 통계">
+      <!-- stat cards injected by app.js -->
+    </section>
+
+    <section class="panel" aria-label="깊게 파고든 게임">
+      <div class="panel__head">
+        <h2 class="panel__title"><span class="panel__num">01</span> 깊게 파고든 게임</h2>
+        <div class="controls">
+          <div class="filter" id="platform-filter" role="group" aria-label="플랫폼 필터"></div>
+          <label class="sort">
+            정렬
+            <select id="sort-select">
+              <option value="playtime">플레이타임순</option>
+              <option value="rating">평점순</option>
+              <option value="title">이름순</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="games">
+          <thead>
+            <tr>
+              <th class="col-title">타이틀</th>
+              <th class="col-plat">플랫폼</th>
+              <th class="col-genre">장르</th>
+              <th class="col-time">플레이타임</th>
+              <th class="col-clear">엔딩</th>
+              <th class="col-note">한 줄 평</th>
+            </tr>
+          </thead>
+          <tbody id="games-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel" aria-label="그 외 플레이한 게임">
+      <div class="panel__head">
+        <h2 class="panel__title"><span class="panel__num">02</span> 그 외 플레이한 게임</h2>
+        <p class="panel__sub" id="more-count">장르별로 폭넓게 경험</p>
+      </div>
+      <div class="table-wrap">
+        <table class="games games--compact">
+          <thead>
+            <tr>
+              <th class="col-title">타이틀</th>
+              <th class="col-plat">플랫폼</th>
+              <th class="col-genre">장르</th>
+              <th class="col-time">플레이타임</th>
+              <th class="col-clear">엔딩</th>
+            </tr>
+          </thead>
+          <tbody id="more-body"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel" aria-label="하이라이트">
+      <div class="panel__head">
+        <h2 class="panel__title"><span class="panel__num">03</span> 하이라이트</h2>
+        <p class="panel__sub">재미 요소 → 구조적 이유 → 아쉬운 점</p>
+      </div>
+      <div class="highlights" id="highlights"></div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <button class="btn-csv" id="csv-btn" type="button">↓ CSV 내보내기</button>
+    <span class="foot__meta">최종 갱신 <span id="updated">—</span></span>
+  </footer>
+
+  <script src="./assets/app.js"></script>
+</body>
+</html>
