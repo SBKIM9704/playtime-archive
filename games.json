@@ -1151,9 +1151,9 @@
         "로그라이크"
       ],
       "playtime_hours": 12.6,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
-      "note": "슬롯머신을 로그라이크로 만든 도박 호러. 탐욕이 곧 게임 루프.",
+      "note": "밀린 집세를 갚고 첫 방 탈출 — 1차 메인 엔딩 (The Structure). 진엔딩·고회차 루프는 진행 중",
       "tier": "deep",
       "achievement_done": 19,
       "achievement_total": 30,
@@ -1165,7 +1165,13 @@
         "시뮬레이션",
         "스포츠",
         "전략"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/3314790.png",
+        "ach": "The Structure",
+        "date": "2025-11-18",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/3314790/achievements"
+      }
     },
     {
       "title": "Kena: Bridge of Spirits",
