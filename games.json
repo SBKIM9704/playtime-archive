@@ -232,7 +232,7 @@
         "메트로배니아"
       ],
       "playtime_hours": 73.2,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "메트로배니아의 탐험과 로그라이크의 반복을 합친 손맛 중심 액션.",
       "tier": "deep",
@@ -1970,7 +1970,13 @@
         "캐주얼",
         "인디",
         "RPG"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1794680.png",
+        "ach": "Hyper Inlaid Library",
+        "date": "2022-02-15",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1794680/achievements"
+      }
     },
     {
       "title": "Stolen Realm",
