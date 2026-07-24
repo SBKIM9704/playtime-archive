@@ -2,7 +2,7 @@
   "profile": {
     "name": "김승범",
     "handle": "player_one",
-    "tagline": "장르 불문 40 타이틀 엔딩(Steam 검증) · LoL 다이아 서포터 · FC 온라인 챌린지1",
+    "tagline": "장르 불문 41 타이틀 엔딩 · LoL 다이아 서포터 · FC 온라인 챌린지1",
     "intro": "",
     "updated": "2026-07-23"
   },
@@ -29,6 +29,19 @@
       "cleared": false,
       "rating": null,
       "note": "초등학생 때부터 이어온 장수 유저(Lv.2622) · 공식경기 최고 챌린지1",
+      "tier": "deep"
+    },
+    {
+      "title": "패스 오브 엑자일 2 (POE2)",
+      "platform": "온라인게임",
+      "genre": [
+        "액션RPG",
+        "핵앤슬래시"
+      ],
+      "playtime_hours": null,
+      "cleared": true,
+      "rating": null,
+      "note": "캠페인(메인 스토리) 클리어 + 엔드게임 아틀라스 T15 지도 도달. (Daum·카카오 클라이언트라 Steam 도전과제 증빙은 없음 — 캐릭터 프로필로 증빙 가능)",
       "tier": "deep"
     },
     {
