@@ -1901,9 +1901,9 @@
         "협동"
       ],
       "playtime_hours": 5.8,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
-      "note": "",
+      "note": "협동 공포 — 메인 스토리 캠페인 1~6장 완주, 최종 6장 클리어 (Way down in the mines). 하드코어·수집은 진행 중",
       "tier": "more",
       "achievement_done": 10,
       "achievement_total": 39,
@@ -1912,7 +1912,13 @@
         "액션",
         "어드벤처",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1302240.png",
+        "ach": "Way down in the mines",
+        "date": "2024-04-24",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1302240/achievements"
+      }
     },
     {
       "title": "DARK SOULS™ III",
