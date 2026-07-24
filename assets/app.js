@@ -41,7 +41,9 @@ function renderProfile() {
   if (p.handle) $("#handle").textContent = `// ${p.handle}`;
   if (p.name) $("#name").textContent = p.name;
   $("#tagline").textContent = p.tagline || "";
-  $("#intro").textContent = p.intro || "";
+  const introEl = $("#intro");
+  if (p.intro) { introEl.textContent = p.intro; introEl.style.display = ""; }
+  else { introEl.style.display = "none"; }
   document.title = `${p.name || "Playtime"} — 게임 플레이 이력`;
 }
 
