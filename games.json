@@ -42,7 +42,10 @@
       "cleared": true,
       "rating": null,
       "note": "무기 14종의 리듬을 몸에 익히는 것 자체가 성장. 440시간이 지루하지 않은 이유.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 73,
+      "achievement_total": 100,
+      "achievement_pct": 73
     },
     {
       "title": "The Binding of Isaac: Rebirth",
@@ -55,7 +58,10 @@
       "cleared": true,
       "rating": null,
       "note": "아이템 하나가 판을 뒤집는 시너지의 무한 변주. 로그라이크의 원형.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 250,
+      "achievement_total": 641,
+      "achievement_pct": 39
     },
     {
       "title": "Slay the Spire 2",
@@ -68,7 +74,8 @@
       "cleared": true,
       "rating": null,
       "note": "완성된 덱빌딩에 새 유물·캐릭터로 변수를 더한 속편. 여전히 '한 판만 더'.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_pct": null
     },
     {
       "title": "Football Manager 2020",
@@ -81,7 +88,10 @@
       "cleared": false,
       "rating": null,
       "note": "숫자 뒤의 서사를 상상하게 만드는 게임. 전술 한 줄이 시즌을 바꾼다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 17,
+      "achievement_total": 97,
+      "achievement_pct": 18
     },
     {
       "title": "MONSTER HUNTER RISE",
@@ -94,7 +104,10 @@
       "cleared": true,
       "rating": null,
       "note": "가루쿠·연익충으로 기동성을 끌어올려 사냥 템포를 재설계한 변주.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 47,
+      "achievement_total": 100,
+      "achievement_pct": 47
     },
     {
       "title": "Slay the Spire",
@@ -107,7 +120,10 @@
       "cleared": true,
       "rating": null,
       "note": "주어진 카드를 최적화하는 의사결정의 반복. 덱빌딩 로그라이크의 교과서.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 29,
+      "achievement_total": 46,
+      "achievement_pct": 63
     },
     {
       "title": "Valheim",
@@ -120,7 +136,8 @@
       "cleared": true,
       "rating": null,
       "note": "절차적 세계에 건축·항해·보스를 얹어 '다음 목표'가 자연히 생기는 생존게임.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_pct": null
     },
     {
       "title": "Stardew Valley",
@@ -133,7 +150,10 @@
       "cleared": false,
       "rating": null,
       "note": "끝이 없는 대신 목표를 스스로 세우게 만든다. 자율성을 존중하는 설계.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 23,
+      "achievement_total": 49,
+      "achievement_pct": 47
     },
     {
       "title": "Dead Cells",
@@ -146,7 +166,10 @@
       "cleared": true,
       "rating": null,
       "note": "메트로배니아의 탐험과 로그라이크의 반복을 합친 손맛 중심 액션.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 81,
+      "achievement_total": 121,
+      "achievement_pct": 67
     },
     {
       "title": "Frostpunk",
@@ -159,7 +182,10 @@
       "cleared": true,
       "rating": null,
       "note": "생존을 위해 도덕을 저울질하게 만드는 도시 경영. 선택의 무게가 다르다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 39,
+      "achievement_total": 115,
+      "achievement_pct": 34
     },
     {
       "title": "ELDEN RING",
@@ -172,7 +198,10 @@
       "cleared": true,
       "rating": null,
       "note": "오픈월드와 소울의 밀도를 억지 없이 합쳤다. 죽음이 벌이 아니라 학습.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 18,
+      "achievement_total": 42,
+      "achievement_pct": 43
     },
     {
       "title": "DAVE THE DIVER",
@@ -185,7 +214,10 @@
       "cleared": true,
       "rating": null,
       "note": "낮의 잠수와 밤의 경영, 성격 다른 두 루프가 서로를 지루하지 않게 받친다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 35,
+      "achievement_total": 43,
+      "achievement_pct": 81
     },
     {
       "title": "Sephiria",
@@ -198,7 +230,10 @@
       "cleared": true,
       "rating": null,
       "note": "부대 배치와 자원 관리가 맞물리는 전략 로그라이크. 판마다 다른 최적해.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 24,
+      "achievement_total": 24,
+      "achievement_pct": 100
     },
     {
       "title": "Skul: The Hero Slayer",
@@ -211,7 +246,10 @@
       "cleared": true,
       "rating": null,
       "note": "머리를 바꿔 클래스를 통째로 교체하는 로그라이크 액션. 조합 재미가 핵심.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 48,
+      "achievement_total": 101,
+      "achievement_pct": 48
     },
     {
       "title": "No Rest for the Wicked",
@@ -224,7 +262,8 @@
       "cleared": true,
       "rating": null,
       "note": "쿼터뷰에 소울라이크의 무게를 이식한 액션 RPG. 타격의 밀도가 좋다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_pct": null
     },
     {
       "title": "Deep Rock Galactic",
@@ -237,7 +276,10 @@
       "cleared": false,
       "rating": null,
       "note": "파괴 가능한 동굴 + 직업별 역할 분담. 협동이 연출이 아니라 필수인 구조.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 25,
+      "achievement_total": 69,
+      "achievement_pct": 36
     },
     {
       "title": "Enshrouded",
@@ -250,7 +292,10 @@
       "cleared": true,
       "rating": null,
       "note": "복셀 건축과 액션 RPG를 합친 생존물. 지형을 직접 깎는 자유도가 강점.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 30,
+      "achievement_total": 52,
+      "achievement_pct": 58
     },
     {
       "title": "Palworld",
@@ -263,7 +308,10 @@
       "cleared": true,
       "rating": null,
       "note": "수집에 생존·자동화를 얹어 '펠이 곧 노동력'이 되는 시스템의 영리함.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 10,
+      "achievement_total": 75,
+      "achievement_pct": 13
     },
     {
       "title": "Hades",
@@ -276,7 +324,10 @@
       "cleared": true,
       "rating": null,
       "note": "패배가 곧 서사 진행. 로그라이크의 반복 피로를 이야기로 푼 정답.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 22,
+      "achievement_total": 49,
+      "achievement_pct": 45
     },
     {
       "title": "Hollow Knight",
@@ -289,7 +340,10 @@
       "cleared": true,
       "rating": null,
       "note": "여백으로 분위기를 쌓는 메트로배니아. 탐험의 불안과 성취가 정교히 교차.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 37,
+      "achievement_total": 63,
+      "achievement_pct": 59
     },
     {
       "title": "Balatro",
@@ -302,7 +356,10 @@
       "cleared": true,
       "rating": null,
       "note": "포커라는 익숙한 규칙을 조커 조합으로 파괴하는 순간 중독이 시작된다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 15,
+      "achievement_total": 31,
+      "achievement_pct": 48
     },
     {
       "title": "DJMAX RESPECT V",
@@ -314,7 +371,10 @@
       "cleared": false,
       "rating": null,
       "note": "판정과 패턴 암기의 쾌감. 국산 리듬게임의 완성형 아카이브.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 20,
+      "achievement_total": 282,
+      "achievement_pct": 7
     },
     {
       "title": "Horizon Zero Dawn™ Complete Edition",
@@ -327,7 +387,10 @@
       "cleared": true,
       "rating": null,
       "note": "기계 동물의 약점을 파훼하는 전투 설계가 오픈월드의 반복을 지탱한다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 27,
+      "achievement_total": 79,
+      "achievement_pct": 34
     },
     {
       "title": "V Rising",
@@ -340,7 +403,10 @@
       "cleared": true,
       "rating": null,
       "note": "뱀파이어 콘셉트를 생존·기지건설에 녹였다. 낮/밤 제약이 곧 전략.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 36,
+      "achievement_total": 49,
+      "achievement_pct": 73
     },
     {
       "title": "Monster Hunter Wilds",
@@ -353,7 +419,10 @@
       "cleared": true,
       "rating": null,
       "note": "무리 생태와 이음새 없는 필드로 '살아있는 사냥터'를 지향한 최신작.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 28,
+      "achievement_total": 50,
+      "achievement_pct": 56
     },
     {
       "title": "Sea of Thieves",
@@ -366,7 +435,10 @@
       "cleared": false,
       "rating": null,
       "note": "배 조작이 통째로 협동 미니게임. 목적보다 항해 그 자체가 재미.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 28,
+      "achievement_total": 293,
+      "achievement_pct": 10
     },
     {
       "title": "Backpack Hero",
@@ -379,7 +451,10 @@
       "cleared": true,
       "rating": null,
       "note": "가방 칸 배치가 곧 빌드. 인벤토리 관리를 로그라이크로 만든 발상.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 0,
+      "achievement_total": 35,
+      "achievement_pct": 0
     },
     {
       "title": "Have a Nice Death",
@@ -392,7 +467,10 @@
       "cleared": true,
       "rating": null,
       "note": "과로에 시달리는 사신이라는 설정부터 매력. 스타일리시 로그라이크 액션.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 28,
+      "achievement_total": 37,
+      "achievement_pct": 76
     },
     {
       "title": "Apex Legends",
@@ -405,7 +483,10 @@
       "cleared": false,
       "rating": null,
       "note": "이동·핑 시스템으로 팀 배틀로얄의 소통 비용을 낮춘 설계가 인상적.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 6,
+      "achievement_total": 12,
+      "achievement_pct": 50
     },
     {
       "title": "Project Zomboid",
@@ -418,7 +499,8 @@
       "cleared": false,
       "rating": null,
       "note": "'당신은 죽는다'가 전제. 생존의 모든 변수를 시뮬레이션하는 하드코어.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_pct": null
     },
     {
       "title": "Ship of Fools",
@@ -431,7 +513,10 @@
       "cleared": true,
       "rating": null,
       "note": "둘이 배 한 척을 지키는 협동 로그라이크. 역할 분담이 곧 재미.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 24,
+      "achievement_total": 47,
+      "achievement_pct": 51
     },
     {
       "title": "Lethal Company",
@@ -444,7 +529,8 @@
       "cleared": false,
       "rating": null,
       "note": "공포와 실적 압박을 협동에 얹었다. 무전 너머의 비명이 콘텐츠.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_pct": null
     },
     {
       "title": "Terraria",
@@ -457,7 +543,10 @@
       "cleared": true,
       "rating": null,
       "note": "2D 샌드박스의 깊이. 탐험→강화→보스의 순환이 수백 시간을 지탱한다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 44,
+      "achievement_total": 137,
+      "achievement_pct": 32
     },
     {
       "title": "Assassin's Creed II",
@@ -470,7 +559,8 @@
       "cleared": true,
       "rating": null,
       "note": "도시 자체가 놀이터인 파쿠르. 시리즈 정체성을 완성한 작품.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_pct": null
     },
     {
       "title": "My Time at Portia",
@@ -483,7 +573,10 @@
       "cleared": false,
       "rating": null,
       "note": "제작·수집 루프에 마을 서사를 얹은 힐링 경영. 목표 제시가 친절하다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 15,
+      "achievement_total": 91,
+      "achievement_pct": 16
     },
     {
       "title": "Assassin's Creed",
@@ -495,7 +588,8 @@
       "cleared": true,
       "rating": null,
       "note": "잠입·군중 은신이라는 시리즈의 핵심 아이디어가 처음 제시된 원점.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_pct": null
     },
     {
       "title": "Escape From Duckov",
@@ -508,7 +602,10 @@
       "cleared": false,
       "rating": null,
       "note": "익스트랙션 슈터의 긴장을 오리 콘셉트로 진입장벽만 낮췄다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 18,
+      "achievement_total": 55,
+      "achievement_pct": 33
     },
     {
       "title": "Raft",
@@ -521,7 +618,10 @@
       "cleared": true,
       "rating": null,
       "note": "표류라는 제약 하나로 생존·확장의 방향을 명확히 잡은 협동 크래프팅.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 42,
+      "achievement_total": 104,
+      "achievement_pct": 40
     },
     {
       "title": "Once Human",
@@ -534,7 +634,8 @@
       "cleared": false,
       "rating": null,
       "note": "생존에 오픈월드 MMO와 기괴한 세계관을 결합. 변형 시스템이 특징.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_pct": null
     },
     {
       "title": "Grounded",
@@ -547,7 +648,10 @@
       "cleared": false,
       "rating": null,
       "note": "'미니어처가 된 뒷마당'이라는 스케일 전환으로 익숙한 생존을 신선하게.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 12,
+      "achievement_total": 45,
+      "achievement_pct": 27
     },
     {
       "title": "Ori and the Will of the Wisps",
@@ -560,7 +664,10 @@
       "cleared": true,
       "rating": null,
       "note": "이동 그 자체가 쾌감인 메트로배니아. 연출과 조작감의 합이 뛰어나다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 17,
+      "achievement_total": 37,
+      "achievement_pct": 46
     },
     {
       "title": "Conan Exiles Enhanced",
@@ -573,7 +680,10 @@
       "cleared": false,
       "rating": null,
       "note": "노출된 생존 규칙 위에 건축·정복을 얹은 오픈월드. 자유도가 크다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 10,
+      "achievement_total": 36,
+      "achievement_pct": 28
     },
     {
       "title": "Abiotic Factor",
@@ -586,7 +696,10 @@
       "cleared": false,
       "rating": null,
       "note": "연구시설에 갇힌 과학자들의 생존 크래프팅. B급 감성의 협동물.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 11,
+      "achievement_total": 53,
+      "achievement_pct": 21
     },
     {
       "title": "We Were Here Forever",
@@ -599,7 +712,10 @@
       "cleared": true,
       "rating": null,
       "note": "서로 다른 정보를 말로 맞춰야 풀리는 협동 퍼즐. 소통이 곧 메커닉.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 30,
+      "achievement_total": 39,
+      "achievement_pct": 77
     },
     {
       "title": "Baldur's Gate 3",
@@ -612,7 +728,10 @@
       "cleared": false,
       "rating": null,
       "note": "선택이 상태로 남아 회차마다 다른 이야기가 열리는 RPG의 새 기준.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 4,
+      "achievement_total": 54,
+      "achievement_pct": 7
     },
     {
       "title": "Returnal™",
@@ -625,7 +744,10 @@
       "cleared": true,
       "rating": null,
       "note": "로그라이크의 반복을 탄막 슈팅과 심리 서사로 재해석한 실험작.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 14,
+      "achievement_total": 38,
+      "achievement_pct": 37
     },
     {
       "title": "Football Manager 2020 Touch",
@@ -638,7 +760,10 @@
       "cleared": false,
       "rating": null,
       "note": "본편의 핵심만 남긴 경량판. 전술 실험을 빠르게 돌리기 좋다.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 7,
+      "achievement_total": 114,
+      "achievement_pct": 6
     },
     {
       "title": "CloverPit",
@@ -650,7 +775,10 @@
       "cleared": true,
       "rating": null,
       "note": "슬롯머신을 로그라이크로 만든 도박 호러. 탐욕이 곧 게임 루프.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 19,
+      "achievement_total": 30,
+      "achievement_pct": 63
     },
     {
       "title": "Kena: Bridge of Spirits",
@@ -662,7 +790,10 @@
       "cleared": true,
       "rating": null,
       "note": "픽사급 연출에 정통 액션어드벤처의 기본기를 갖춘 데뷔작.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 27,
+      "achievement_total": 41,
+      "achievement_pct": 66
     },
     {
       "title": "Deep Rock Galactic: Survivor",
@@ -675,7 +806,10 @@
       "cleared": true,
       "rating": null,
       "note": "원작 세계관을 뱀서라이크로 옮긴 스핀오프. 짧고 강한 도파민.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 13,
+      "achievement_total": 300,
+      "achievement_pct": 4
     },
     {
       "title": "Remnant II",
@@ -688,7 +822,10 @@
       "cleared": true,
       "rating": null,
       "note": "소울라이크의 무게에 총기와 절차적 생성을 얹은 협동 슈터 RPG.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 20,
+      "achievement_total": 65,
+      "achievement_pct": 31
     },
     {
       "title": "Tails of Iron",
@@ -701,7 +838,10 @@
       "cleared": true,
       "rating": null,
       "note": "잔혹동화풍 아트에 패링 중심 전투를 얹은 액션 RPG.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 22,
+      "achievement_total": 36,
+      "achievement_pct": 61
     },
     {
       "title": "Human Fall Flat",
@@ -714,7 +854,10 @@
       "cleared": true,
       "rating": null,
       "note": "물렁한 물리 조작이 곧 웃음 포인트. 실패가 재미인 협동 퍼즐.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 36,
+      "achievement_total": 151,
+      "achievement_pct": 24
     },
     {
       "title": "Escape the Backrooms",
@@ -727,7 +870,10 @@
       "cleared": false,
       "rating": null,
       "note": "밈 세계관을 협동 탈출 호러로. 분위기와 팀워크가 전부.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 1,
+      "achievement_total": 34,
+      "achievement_pct": 3
     },
     {
       "title": "It Takes Two",
@@ -740,7 +886,10 @@
       "cleared": true,
       "rating": null,
       "note": "모든 구간이 새 협동 기믹. '함께'를 강제하는 설계의 교본.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 6,
+      "achievement_total": 20,
+      "achievement_pct": 30
     },
     {
       "title": "Tribes of Midgard",
@@ -753,7 +902,10 @@
       "cleared": true,
       "rating": null,
       "note": "생존·디펜스·로그라이크를 짧은 세션에 압축한 협동물.",
-      "tier": "deep"
+      "tier": "deep",
+      "achievement_done": 12,
+      "achievement_total": 26,
+      "achievement_pct": 46
     },
     {
       "title": "Two Point Hospital",
@@ -765,7 +917,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 7,
+      "achievement_total": 61,
+      "achievement_pct": 11
     },
     {
       "title": "Core Keeper",
@@ -778,7 +933,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 7,
+      "achievement_total": 55,
+      "achievement_pct": 13
     },
     {
       "title": "Darkest Dungeon®",
@@ -791,7 +949,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 15,
+      "achievement_total": 126,
+      "achievement_pct": 12
     },
     {
       "title": "Sons Of The Forest",
@@ -804,7 +965,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 3,
+      "achievement_total": 32,
+      "achievement_pct": 9
     },
     {
       "title": "Ori and the Blind Forest: Definitive Edition",
@@ -817,7 +981,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 33,
+      "achievement_total": 57,
+      "achievement_pct": 58
     },
     {
       "title": "Dungeon Clawler",
@@ -830,7 +997,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 4,
+      "achievement_total": 39,
+      "achievement_pct": 10
     },
     {
       "title": "DREDGE",
@@ -843,7 +1013,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 17,
+      "achievement_total": 60,
+      "achievement_pct": 28
     },
     {
       "title": "Escape Simulator",
@@ -856,7 +1029,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 8,
+      "achievement_total": 25,
+      "achievement_pct": 32
     },
     {
       "title": "Moonlighter",
@@ -869,7 +1045,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 12,
+      "achievement_total": 67,
+      "achievement_pct": 18
     },
     {
       "title": "EA SPORTS FC™ 25",
@@ -881,7 +1060,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 5,
+      "achievement_total": 39,
+      "achievement_pct": 13
     },
     {
       "title": "Death's Door",
@@ -893,7 +1075,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 5,
+      "achievement_total": 24,
+      "achievement_pct": 21
     },
     {
       "title": "9 Kings",
@@ -906,7 +1091,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 11,
+      "achievement_total": 54,
+      "achievement_pct": 20
     },
     {
       "title": "GTFO",
@@ -919,7 +1107,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 3,
+      "achievement_total": 57,
+      "achievement_pct": 5
     },
     {
       "title": "SANABI",
@@ -932,7 +1123,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 12,
+      "achievement_total": 21,
+      "achievement_pct": 57
     },
     {
       "title": "Portal 2",
@@ -945,7 +1139,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 16,
+      "achievement_total": 51,
+      "achievement_pct": 31
     },
     {
       "title": "Curse of the Dead Gods",
@@ -958,7 +1155,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 11,
+      "achievement_total": 30,
+      "achievement_pct": 37
     },
     {
       "title": "Trine 5: A Clockwork Conspiracy",
@@ -971,7 +1171,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 12,
+      "achievement_total": 62,
+      "achievement_pct": 19
     },
     {
       "title": "R.E.P.O.",
@@ -984,7 +1187,8 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_pct": null
     },
     {
       "title": "We Were Here Together",
@@ -997,7 +1201,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 12,
+      "achievement_total": 22,
+      "achievement_pct": 55
     },
     {
       "title": "Scritchy Scratchy",
@@ -1010,7 +1217,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 21,
+      "achievement_total": 34,
+      "achievement_pct": 62
     },
     {
       "title": "Assassin's Creed IV Black Flag",
@@ -1023,7 +1233,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 0,
+      "achievement_total": 60,
+      "achievement_pct": 0
     },
     {
       "title": "Labyrinthine",
@@ -1036,7 +1249,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 10,
+      "achievement_total": 39,
+      "achievement_pct": 26
     },
     {
       "title": "DARK SOULS™ III",
@@ -1049,7 +1265,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 3,
+      "achievement_total": 43,
+      "achievement_pct": 7
     },
     {
       "title": "Emissary Zero",
@@ -1062,7 +1281,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 14,
+      "achievement_total": 20,
+      "achievement_pct": 70
     },
     {
       "title": "PEAK",
@@ -1075,7 +1297,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 5,
+      "achievement_total": 54,
+      "achievement_pct": 9
     },
     {
       "title": "Chained Together",
@@ -1088,7 +1313,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 13,
+      "achievement_total": 16,
+      "achievement_pct": 81
     },
     {
       "title": "Enter the Gungeon",
@@ -1101,7 +1329,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 2,
+      "achievement_total": 54,
+      "achievement_pct": 4
     },
     {
       "title": "Into the Dead: Our Darkest Days",
@@ -1114,7 +1345,8 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_pct": null
     },
     {
       "title": "Rock Bottom",
@@ -1127,7 +1359,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 14,
+      "achievement_total": 16,
+      "achievement_pct": 88
     },
     {
       "title": "Vampire Survivors",
@@ -1140,7 +1375,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 32,
+      "achievement_total": 243,
+      "achievement_pct": 13
     },
     {
       "title": "Stolen Realm",
@@ -1153,7 +1391,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 6,
+      "achievement_total": 61,
+      "achievement_pct": 10
     },
     {
       "title": "PARANOIA PLACE",
@@ -1165,7 +1406,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 18,
+      "achievement_total": 35,
+      "achievement_pct": 51
     },
     {
       "title": "Zort",
@@ -1179,7 +1423,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 5,
+      "achievement_total": 20,
+      "achievement_pct": 25
     },
     {
       "title": "Subnautica",
@@ -1192,7 +1439,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 1,
+      "achievement_total": 17,
+      "achievement_pct": 6
     },
     {
       "title": "Assassin's Creed Revelations",
@@ -1204,7 +1454,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 0,
+      "achievement_total": 48,
+      "achievement_pct": 0
     },
     {
       "title": "Overcooked! 2",
@@ -1217,7 +1470,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 6,
+      "achievement_total": 54,
+      "achievement_pct": 11
     },
     {
       "title": "Among Us",
@@ -1230,7 +1486,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 0,
+      "achievement_total": 33,
+      "achievement_pct": 0
     },
     {
       "title": "Biped",
@@ -1243,7 +1502,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 9,
+      "achievement_total": 15,
+      "achievement_pct": 60
     },
     {
       "title": "Station to Station",
@@ -1256,7 +1518,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 14,
+      "achievement_total": 81,
+      "achievement_pct": 17
     },
     {
       "title": "Forza Horizon 5",
@@ -1269,7 +1534,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 5,
+      "achievement_total": 164,
+      "achievement_pct": 3
     },
     {
       "title": "Chained in the Backrooms",
@@ -1282,7 +1550,8 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_pct": null
     },
     {
       "title": "Liar's Bar",
@@ -1295,7 +1564,8 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_pct": null
     },
     {
       "title": "GONE Fishing",
@@ -1307,7 +1577,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 11,
+      "achievement_total": 44,
+      "achievement_pct": 25
     },
     {
       "title": "Black Squad",
@@ -1319,7 +1592,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 0,
+      "achievement_total": 36,
+      "achievement_pct": 0
     },
     {
       "title": "Sol Cesto",
@@ -1331,7 +1607,10 @@
       "cleared": true,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 0,
+      "achievement_total": 21,
+      "achievement_pct": 0
     },
     {
       "title": "Sid Meier's Civilization VI",
@@ -1344,7 +1623,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 2,
+      "achievement_total": 320,
+      "achievement_pct": 1
     },
     {
       "title": "Ravenswatch",
@@ -1357,7 +1639,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 8,
+      "achievement_total": 45,
+      "achievement_pct": 18
     },
     {
       "title": "RV There Yet?",
@@ -1369,7 +1654,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 0,
+      "achievement_total": 96,
+      "achievement_pct": 0
     },
     {
       "title": "CARRION",
@@ -1382,7 +1670,10 @@
       "cleared": false,
       "rating": null,
       "note": "",
-      "tier": "more"
+      "tier": "more",
+      "achievement_done": 13,
+      "achievement_total": 21,
+      "achievement_pct": 62
     }
   ],
   "highlights": [

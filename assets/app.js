@@ -108,6 +108,17 @@ function timeBar(h, max) {
   return `<div class="pbar"><div class="pbar__fill" style="width:${pct}%"></div></div>`;
 }
 
+// 과제(실적) 달성률 행 — 실적 없는 게임은 표시 안 함
+function achRow(g) {
+  if (g.achievement_pct == null) return "";
+  const p = g.achievement_pct;
+  const done = g.achievement_done, total = g.achievement_total;
+  return `<div class="gcard__ach" title="과제 달성 ${done}/${total}">
+        <div class="abar"><div class="abar__fill" style="width:${Math.max(3, p)}%"></div></div>
+        <span class="gcard__achv">실적 ${p}%</span>
+      </div>`;
+}
+
 // 장르 분포 막대 (전체 데이터 기준 · 필터 무관)
 function renderGenreChart() {
   const counts = {};
@@ -144,6 +155,7 @@ function renderTables() {
         </div>
         <div class="gcard__meta"><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
         <div class="gcard__time">${timeBar(g.playtime_hours, deepMax)}<span class="gcard__hrs">${fmtHours(g.playtime_hours)}</span></div>
+        ${achRow(g)}
         ${g.note ? `<p class="gcard__note">${esc(g.note)}</p>` : ""}
       </article>`
       )
@@ -163,6 +175,7 @@ function renderTables() {
         </div>
         <div class="gcard__meta"><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
         <div class="gcard__time">${timeBar(g.playtime_hours, moreMax)}<span class="gcard__hrs">${fmtHours(g.playtime_hours)}</span></div>
+        ${achRow(g)}
       </article>`
       )
       .join("") || emptyMsg();
@@ -222,13 +235,14 @@ function wireControls() {
 /* CSV export — 5단계 스프레드시트 정식 제출용, 같은 데이터에서 파생 */
 function exportCSV() {
   const games = state.data.games || [];
-  const header = ["타이틀", "플랫폼", "장르", "플레이타임(시간)", "클리어", "평점", "구분", "한줄평"];
+  const header = ["타이틀", "플랫폼", "장르", "플레이타임(시간)", "클리어", "실적%", "평점", "구분", "한줄평"];
   const lines = [header, ...games.map((g) => [
     g.title,
     g.platform,
     (g.genre || []).join(" / "),
     g.playtime_hours ?? "",
     g.cleared ? "Y" : "N",
+    g.achievement_pct ?? "",
     g.rating ?? "",
     g.tier === "deep" ? "깊게" : "그외",
     g.note || "",
