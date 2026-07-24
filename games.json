@@ -279,7 +279,7 @@
         "액션RPG"
       ],
       "playtime_hours": 61.6,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "오픈월드와 소울의 밀도를 억지 없이 합쳤다. 죽음이 벌이 아니라 학습.",
       "tier": "deep",
@@ -780,7 +780,7 @@
         "생존"
       ],
       "playtime_hours": 21.4,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "2D 샌드박스의 깊이. 탐험→강화→보스의 순환이 수백 시간을 지탱한다.",
       "tier": "deep",
