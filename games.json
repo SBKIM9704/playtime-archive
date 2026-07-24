@@ -16,8 +16,15 @@
       "playtime_hours": 1500,
       "cleared": false,
       "rating": null,
-      "note": "서포터 · 시즌3부터 10년+ · 역대 최고 다이아3(2023), 현재 에메랄드2 · 레벨 342(3,000+ 판, 추정 약 1,500시간) · 요즘은 솔랭 대신 칼바람 증강 위주 · 좀놀던괴물#KR1",
-      "tier": "deep"
+      "tier": "deep",
+      "notes": [
+        "서포터",
+        "시즌3부터 10년+",
+        "역대 최고 다이아3(2023), 현재 에메랄드2",
+        "레벨 342(3,000+ 판, 추정 약 1,500시간)",
+        "요즘은 솔랭 대신 칼바람 증강 위주",
+        "좀놀던괴물#KR1"
+      ]
     },
     {
       "title": "FC 온라인",
@@ -28,8 +35,13 @@
       "playtime_hours": 1000,
       "cleared": false,
       "rating": null,
-      "note": "초등학생 때부터 이어온 장수 유저(Lv.2622) · 공식경기 최고 챌린지1 · 레벨의 대부분은 감독모드(자동)로 누적 · 수동 공식경기 추정 1,000시간 내외",
-      "tier": "deep"
+      "tier": "deep",
+      "notes": [
+        "초등학생 때부터 이어온 장수 유저(Lv.2622)",
+        "공식경기 최고 챌린지1",
+        "레벨의 대부분은 감독모드(자동)로 누적",
+        "수동 공식경기 추정 1,000시간 내외"
+      ]
     },
     {
       "title": "패스 오브 엑자일 2 (POE2)",
@@ -41,8 +53,10 @@
       "playtime_hours": 100,
       "cleared": false,
       "rating": null,
-      "note": "캠페인 Act 6 + 엔드게임 아틀라스 T15 도달 (약 100시간). 얼리액세스 진행 중 — 정식 엔딩·우버 보스는 미완",
-      "tier": "deep"
+      "tier": "deep",
+      "notes": [
+        "캠페인 Act 6 + 엔드게임 아틀라스 T15 도달 (약 100시간). 얼리액세스 진행 중 — 정식 엔딩·우버 보스는 미완"
+      ]
     },
     {
       "title": "모바일 게임 (Google Play 게임즈)",
@@ -51,9 +65,15 @@
       "playtime_hours": null,
       "cleared": false,
       "rating": null,
-      "note": "단순 캐주얼 시간때우기 + 온라인게임 연동작 위주 · FConline M 288h(PC FC 온라인 연동, 상당수 자동/방치) · 롤토체스M·AION2·엠파이어&퍼즐·퍼즐앤드래곤 등 · Google Play 게임즈 Lv.25 · 통합 업적 596개",
       "tier": "deep",
-      "image": "./assets/mobile-proof.png"
+      "image": "./assets/mobile-proof.png",
+      "notes": [
+        "단순 캐주얼 시간때우기 + 온라인게임 연동작 위주",
+        "FConline M 288h(PC FC 온라인 연동, 상당수 자동/방치)",
+        "롤토체스M·AION2·엠파이어&퍼즐·퍼즐앤드래곤 등",
+        "Google Play 게임즈 Lv.25",
+        "통합 업적 596개"
+      ]
     },
     {
       "title": "Monster Hunter: World",
@@ -65,7 +85,6 @@
       "playtime_hours": 440.3,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 73,
       "achievement_total": 100,
@@ -90,7 +109,6 @@
       "playtime_hours": 280.8,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 250,
       "achievement_total": 641,
@@ -115,13 +133,16 @@
       "playtime_hours": 234.5,
       "cleared": true,
       "rating": null,
-      "note": "전 캐릭터 승천 10단계 클리어 · 얼리액세스라 도전과제 미구현",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
         "인디",
         "전략",
         "앞서 해보기"
+      ],
+      "notes": [
+        "전 캐릭터 승천 10단계 클리어",
+        "얼리액세스라 도전과제 미구현"
       ]
     },
     {
@@ -134,7 +155,6 @@
       "playtime_hours": 218.1,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 17,
       "achievement_total": 97,
@@ -154,7 +174,6 @@
       "playtime_hours": 148.5,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 47,
       "achievement_total": 100,
@@ -179,7 +198,6 @@
       "playtime_hours": 138.6,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 29,
       "achievement_total": 46,
@@ -205,7 +223,6 @@
       "playtime_hours": 91.3,
       "cleared": true,
       "rating": null,
-      "note": "전 보스 클리어 · Steam 도전과제 미지원이라 증빙 불가",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
@@ -214,6 +231,10 @@
         "인디",
         "RPG",
         "앞서 해보기"
+      ],
+      "notes": [
+        "전 보스 클리어",
+        "Steam 도전과제 미지원이라 증빙 불가"
       ]
     },
     {
@@ -226,7 +247,6 @@
       "playtime_hours": 82.2,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 23,
       "achievement_total": 49,
@@ -253,7 +273,6 @@
       "playtime_hours": 73.2,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 81,
       "achievement_total": 121,
@@ -280,7 +299,6 @@
       "playtime_hours": 61.6,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 39,
       "achievement_total": 115,
@@ -306,7 +324,6 @@
       "playtime_hours": 61.6,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 18,
       "achievement_total": 42,
@@ -326,7 +343,6 @@
       "playtime_hours": 61,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 35,
       "achievement_total": 43,
@@ -354,7 +370,6 @@
       "playtime_hours": 58.3,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 24,
       "achievement_total": 24,
@@ -383,7 +398,6 @@
       "playtime_hours": 56.1,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 48,
       "achievement_total": 101,
@@ -409,7 +423,6 @@
       "playtime_hours": 49.4,
       "cleared": true,
       "rating": null,
-      "note": "얼리액세스 · 엔딩 도전과제 미구현",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
@@ -417,6 +430,10 @@
         "어드벤처",
         "RPG",
         "앞서 해보기"
+      ],
+      "notes": [
+        "얼리액세스",
+        "엔딩 도전과제 미구현"
       ]
     },
     {
@@ -429,7 +446,6 @@
       "playtime_hours": 49.1,
       "cleared": true,
       "rating": null,
-      "note": "스토리 엔딩 없는 서비스형 협동 슈팅 — 최고 난이도 Hazard 5 클리어 + 딥다이브 45분 컷 완수 (엔드게임 완파)",
       "tier": "deep",
       "achievement_done": 25,
       "achievement_total": 69,
@@ -442,7 +458,10 @@
         "ach": "Going Lethal",
         "date": "2024-03-18",
         "url": "https://steamcommunity.com/profiles/76561198176814643/stats/548430/achievements"
-      }
+      },
+      "notes": [
+        "스토리 엔딩 없는 서비스형 협동 슈팅 — 최고 난이도 Hazard 5 클리어 + 딥다이브 45분 컷 완수 (엔드게임 완파)"
+      ]
     },
     {
       "title": "Enshrouded",
@@ -454,7 +473,6 @@
       "playtime_hours": 47.6,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 30,
       "achievement_total": 52,
@@ -483,7 +501,6 @@
       "playtime_hours": 45.4,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 10,
       "achievement_total": 75,
@@ -505,7 +522,6 @@
       "playtime_hours": 42.3,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 22,
       "achievement_total": 49,
@@ -532,7 +548,6 @@
       "playtime_hours": 41.1,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 37,
       "achievement_total": 63,
@@ -559,7 +574,6 @@
       "playtime_hours": 40.2,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 15,
       "achievement_total": 31,
@@ -585,7 +599,6 @@
       "playtime_hours": 37.9,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 20,
       "achievement_total": 282,
@@ -606,7 +619,6 @@
       "playtime_hours": 36,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 27,
       "achievement_total": 79,
@@ -627,7 +639,6 @@
       "playtime_hours": 30.7,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 36,
       "achievement_total": 49,
@@ -654,7 +665,6 @@
       "playtime_hours": 30.5,
       "cleared": true,
       "rating": null,
-      "note": "메인 스토리 최종 퀘스트 'What Lies Ahead' 완료 — 메인 엔딩 (One Corner of the World). HR100·금관 등 엔드게임 파밍은 보류",
       "tier": "deep",
       "achievement_done": 28,
       "achievement_total": 50,
@@ -669,7 +679,10 @@
         "ach": "One Corner of the World",
         "date": "2025-03-01",
         "url": "https://steamcommunity.com/profiles/76561198176814643/stats/2246340/achievements"
-      }
+      },
+      "notes": [
+        "메인 스토리 최종 퀘스트 'What Lies Ahead' 완료 — 메인 엔딩 (One Corner of the World). HR100·금관 등 엔드게임 파밍은 보류"
+      ]
     },
     {
       "title": "Sea of Thieves",
@@ -681,7 +694,6 @@
       "playtime_hours": 29.6,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 28,
       "achievement_total": 293,
@@ -701,7 +713,6 @@
       "playtime_hours": 28.1,
       "cleared": true,
       "rating": null,
-      "note": "인벤토리 로그라이크 — 얼리액세스(2023.10) 시절 28시간 플레이로 여러 캐릭터 해금·던전 클리어. 당시 스팀 도전과제 미구현이라 증빙 불가 (1.0 정식출시는 2023.11)",
       "tier": "deep",
       "achievement_done": 0,
       "achievement_total": 35,
@@ -712,6 +723,9 @@
         "인디",
         "RPG",
         "전략"
+      ],
+      "notes": [
+        "인벤토리 로그라이크 — 얼리액세스(2023.10) 시절 28시간 플레이로 여러 캐릭터 해금·던전 클리어. 당시 스팀 도전과제 미구현이라 증빙 불가 (1.0 정식출시는 2023.11)"
       ]
     },
     {
@@ -724,7 +738,6 @@
       "playtime_hours": 25,
       "cleared": true,
       "rating": null,
-      "note": "8구역 최종보스 '시간(Time)' 처치로 메인 스토리 엔딩 + 전 서브 서사 퀘스트 완료 (진엔딩 True Death는 미달성)",
       "tier": "deep",
       "achievement_done": 28,
       "achievement_total": 37,
@@ -738,7 +751,10 @@
         "ach": "Save Time",
         "date": "2025-02-16",
         "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1740720/achievements"
-      }
+      },
+      "notes": [
+        "8구역 최종보스 '시간(Time)' 처치로 메인 스토리 엔딩 + 전 서브 서사 퀘스트 완료 (진엔딩 True Death는 미달성)"
+      ]
     },
     {
       "title": "Apex Legends",
@@ -750,7 +766,6 @@
       "playtime_hours": 22.5,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 6,
       "achievement_total": 12,
@@ -771,7 +786,6 @@
       "playtime_hours": 21.8,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
@@ -791,7 +805,6 @@
       "playtime_hours": 21.7,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 24,
       "achievement_total": 47,
@@ -817,7 +830,6 @@
       "playtime_hours": 21.7,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
@@ -837,7 +849,6 @@
       "playtime_hours": 21.4,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 44,
       "achievement_total": 137,
@@ -859,12 +870,15 @@
       "playtime_hours": 20.9,
       "cleared": true,
       "rating": null,
-      "note": "구 유비소프트작 · 도전과제가 Uplay에 귀속되어 Steam 증빙 불가",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
         "액션",
         "어드벤처"
+      ],
+      "notes": [
+        "구 유비소프트작",
+        "도전과제가 Uplay에 귀속되어 Steam 증빙 불가"
       ]
     },
     {
@@ -877,7 +891,6 @@
       "playtime_hours": 20.7,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 15,
       "achievement_total": 91,
@@ -899,12 +912,15 @@
       "playtime_hours": 20.2,
       "cleared": true,
       "rating": null,
-      "note": "구 유비소프트작 · 도전과제 Uplay 귀속",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
         "액션",
         "어드벤처"
+      ],
+      "notes": [
+        "구 유비소프트작",
+        "도전과제 Uplay 귀속"
       ]
     },
     {
@@ -917,7 +933,6 @@
       "playtime_hours": 19.3,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 18,
       "achievement_total": 55,
@@ -939,7 +954,6 @@
       "playtime_hours": 18.1,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 42,
       "achievement_total": 104,
@@ -966,7 +980,6 @@
       "playtime_hours": 16.9,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
@@ -988,7 +1001,6 @@
       "playtime_hours": 15.7,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 12,
       "achievement_total": 45,
@@ -1008,7 +1020,6 @@
       "playtime_hours": 15.6,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 17,
       "achievement_total": 37,
@@ -1033,7 +1044,6 @@
       "playtime_hours": 13.8,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 10,
       "achievement_total": 36,
@@ -1057,7 +1067,6 @@
       "playtime_hours": 13.5,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 11,
       "achievement_total": 53,
@@ -1079,7 +1088,6 @@
       "playtime_hours": 13.5,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 30,
       "achievement_total": 39,
@@ -1106,7 +1114,6 @@
       "playtime_hours": 1.9,
       "cleared": true,
       "rating": null,
-      "note": "2인 협동 방탈출 — 최종장 희생/탈출 엔딩 (Relation Elevation)",
       "tier": "more",
       "achievement_done": 10,
       "achievement_total": 20,
@@ -1116,7 +1123,10 @@
         "ach": "Relation Elevation",
         "date": "2023-10-03",
         "url": "https://steamcommunity.com/profiles/76561198176814643/stats/677160/achievements"
-      }
+      },
+      "notes": [
+        "2인 협동 방탈출 — 최종장 희생/탈출 엔딩 (Relation Elevation)"
+      ]
     },
     {
       "title": "We Were Here Expeditions: The FriendShip",
@@ -1128,7 +1138,6 @@
       "playtime_hours": 1.8,
       "cleared": true,
       "rating": null,
-      "note": "2인 협동 — 모든 시련을 완료하고 배 진수 (Ship Dip!)",
       "tier": "more",
       "achievement_done": 7,
       "achievement_total": 12,
@@ -1138,7 +1147,10 @@
         "ach": "Ship Dip!",
         "date": "2023-09-27",
         "url": "https://steamcommunity.com/profiles/76561198176814643/stats/2296990/achievements"
-      }
+      },
+      "notes": [
+        "2인 협동 — 모든 시련을 완료하고 배 진수 (Ship Dip!)"
+      ]
     },
     {
       "title": "Baldur's Gate 3",
@@ -1150,7 +1162,6 @@
       "playtime_hours": 13.3,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 4,
       "achievement_total": 54,
@@ -1171,7 +1182,6 @@
       "playtime_hours": 12.9,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 14,
       "achievement_total": 38,
@@ -1190,7 +1200,6 @@
       "playtime_hours": 12.7,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 7,
       "achievement_total": 114,
@@ -1209,7 +1218,6 @@
       "playtime_hours": 12.6,
       "cleared": true,
       "rating": null,
-      "note": "밀린 집세를 갚고 첫 방 탈출 — 1차 메인 엔딩 (The Structure). 진엔딩·고회차 루프는 진행 중",
       "tier": "deep",
       "achievement_done": 19,
       "achievement_total": 30,
@@ -1227,7 +1235,10 @@
         "ach": "The Structure",
         "date": "2025-11-18",
         "url": "https://steamcommunity.com/profiles/76561198176814643/stats/3314790/achievements"
-      }
+      },
+      "notes": [
+        "밀린 집세를 갚고 첫 방 탈출 — 1차 메인 엔딩 (The Structure). 진엔딩·고회차 루프는 진행 중"
+      ]
     },
     {
       "title": "Kena: Bridge of Spirits",
@@ -1238,7 +1249,6 @@
       "playtime_hours": 12,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 27,
       "achievement_total": 41,
@@ -1265,7 +1275,6 @@
       "playtime_hours": 11.9,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 13,
       "achievement_total": 300,
@@ -1284,7 +1293,6 @@
       "playtime_hours": 11.6,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 20,
       "achievement_total": 65,
@@ -1311,7 +1319,6 @@
       "playtime_hours": 11,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 22,
       "achievement_total": 36,
@@ -1338,7 +1345,6 @@
       "playtime_hours": 10.8,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 36,
       "achievement_total": 151,
@@ -1360,7 +1366,6 @@
       "playtime_hours": 10.8,
       "cleared": true,
       "rating": null,
-      "note": "백룸 협동 공포 — 멀티플레이 보통 난이도로 최종 엔딩까지 완파 (Squad)",
       "tier": "deep",
       "achievement_done": 1,
       "achievement_total": 34,
@@ -1374,7 +1379,10 @@
         "ach": "Squad",
         "date": "2024-02-20",
         "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1943950/achievements"
-      }
+      },
+      "notes": [
+        "백룸 협동 공포 — 멀티플레이 보통 난이도로 최종 엔딩까지 완파 (Squad)"
+      ]
     },
     {
       "title": "It Takes Two",
@@ -1386,7 +1394,6 @@
       "playtime_hours": 10.4,
       "cleared": true,
       "rating": null,
-      "note": "협동 게스트(Friend's Pass)로 완주 — 도전과제는 호스트 계정에 귀속되어 미표시",
       "tier": "deep",
       "achievement_done": 6,
       "achievement_total": 20,
@@ -1394,6 +1401,9 @@
       "steam_genres": [
         "액션",
         "어드벤처"
+      ],
+      "notes": [
+        "협동 게스트(Friend's Pass)로 완주 — 도전과제는 호스트 계정에 귀속되어 미표시"
       ]
     },
     {
@@ -1406,7 +1416,6 @@
       "playtime_hours": 10,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "deep",
       "achievement_done": 12,
       "achievement_total": 26,
@@ -1433,7 +1442,6 @@
       "playtime_hours": 9.8,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 7,
       "achievement_total": 61,
@@ -1453,7 +1461,6 @@
       "playtime_hours": 9.2,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 7,
       "achievement_total": 55,
@@ -1476,7 +1483,6 @@
       "playtime_hours": 9.1,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 15,
       "achievement_total": 126,
@@ -1497,7 +1503,6 @@
       "playtime_hours": 9.1,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 3,
       "achievement_total": 32,
@@ -1525,7 +1530,6 @@
       "playtime_hours": 9,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 33,
       "achievement_total": 57,
@@ -1550,7 +1554,6 @@
       "playtime_hours": 9,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 4,
       "achievement_total": 39,
@@ -1573,7 +1576,6 @@
       "playtime_hours": 8.5,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 17,
       "achievement_total": 60,
@@ -1593,7 +1595,6 @@
       "playtime_hours": 8.2,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 8,
       "achievement_total": 25,
@@ -1615,7 +1616,6 @@
       "playtime_hours": 7.8,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 12,
       "achievement_total": 67,
@@ -1635,7 +1635,6 @@
       "playtime_hours": 7.8,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 5,
       "achievement_total": 39,
@@ -1654,7 +1653,6 @@
       "playtime_hours": 7.7,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 5,
       "achievement_total": 24,
@@ -1682,7 +1680,6 @@
       "playtime_hours": 7.7,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 11,
       "achievement_total": 54,
@@ -1709,7 +1706,6 @@
       "playtime_hours": 7.6,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 3,
       "achievement_total": 57,
@@ -1728,7 +1724,6 @@
       "playtime_hours": 7.6,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 12,
       "achievement_total": 21,
@@ -1755,7 +1750,6 @@
       "playtime_hours": 7.5,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 16,
       "achievement_total": 51,
@@ -1781,7 +1775,6 @@
       "playtime_hours": 7.1,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 11,
       "achievement_total": 30,
@@ -1801,7 +1794,6 @@
       "playtime_hours": 6.5,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 12,
       "achievement_total": 62,
@@ -1823,7 +1815,6 @@
       "playtime_hours": 6,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_pct": null,
       "steam_genres": [
@@ -1841,7 +1832,6 @@
       "playtime_hours": 5.9,
       "cleared": true,
       "rating": null,
-      "note": "2인 협동 퍼즐 — 친구와 처음부터 끝까지 완주. 최종 엔딩 과제(Together)는 역할 분담상 파트너 계정에 귀속되어 본인 계정엔 미표시",
       "tier": "more",
       "achievement_done": 12,
       "achievement_total": 22,
@@ -1850,6 +1840,9 @@
         "어드벤처",
         "캐주얼",
         "인디"
+      ],
+      "notes": [
+        "2인 협동 퍼즐 — 친구와 처음부터 끝까지 완주. 최종 엔딩 과제(Together)는 역할 분담상 파트너 계정에 귀속되어 본인 계정엔 미표시"
       ]
     },
     {
@@ -1862,7 +1855,6 @@
       "playtime_hours": 5.9,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 21,
       "achievement_total": 34,
@@ -1889,7 +1881,6 @@
       "playtime_hours": 5.8,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 0,
       "achievement_total": 60,
@@ -1909,7 +1900,6 @@
       "playtime_hours": 5.8,
       "cleared": true,
       "rating": null,
-      "note": "협동 공포 — 메인 스토리 캠페인 1~6장 완주, 최종 6장 클리어 (Way down in the mines). 하드코어·수집은 진행 중",
       "tier": "more",
       "achievement_done": 10,
       "achievement_total": 39,
@@ -1924,7 +1914,10 @@
         "ach": "Way down in the mines",
         "date": "2024-04-24",
         "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1302240/achievements"
-      }
+      },
+      "notes": [
+        "협동 공포 — 메인 스토리 캠페인 1~6장 완주, 최종 6장 클리어 (Way down in the mines). 하드코어·수집은 진행 중"
+      ]
     },
     {
       "title": "DARK SOULS™ III",
@@ -1936,7 +1929,6 @@
       "playtime_hours": 5.7,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 3,
       "achievement_total": 43,
@@ -1955,7 +1947,6 @@
       "playtime_hours": 5.5,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 14,
       "achievement_total": 20,
@@ -1982,7 +1973,6 @@
       "playtime_hours": 5.3,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 5,
       "achievement_total": 54,
@@ -2003,7 +1993,6 @@
       "playtime_hours": 4.9,
       "cleared": true,
       "rating": null,
-      "note": "지옥 바닥부터 13개 구역(Underworld→…→The Garden)을 전부 완등해 최종 최상층 정원(The Garden) 도달 — 정상 등반 완료",
       "tier": "more",
       "achievement_done": 13,
       "achievement_total": 16,
@@ -2019,7 +2008,10 @@
         "ach": "The Garden",
         "date": "2024-07-16",
         "url": "https://steamcommunity.com/profiles/76561198176814643/stats/2567870/achievements"
-      }
+      },
+      "notes": [
+        "지옥 바닥부터 13개 구역(Underworld→…→The Garden)을 전부 완등해 최종 최상층 정원(The Garden) 도달 — 정상 등반 완료"
+      ]
     },
     {
       "title": "Enter the Gungeon",
@@ -2031,7 +2023,6 @@
       "playtime_hours": 4.6,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 2,
       "achievement_total": 54,
@@ -2052,7 +2043,6 @@
       "playtime_hours": 4.5,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_pct": null,
       "steam_genres": [
@@ -2072,7 +2062,6 @@
       "playtime_hours": 4.1,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 14,
       "achievement_total": 16,
@@ -2101,7 +2090,6 @@
       "playtime_hours": 4,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 32,
       "achievement_total": 243,
@@ -2129,7 +2117,6 @@
       "playtime_hours": 3.9,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 6,
       "achievement_total": 61,
@@ -2149,7 +2136,6 @@
       "playtime_hours": 3.8,
       "cleared": true,
       "rating": null,
-      "note": "정신병원·고아원 두 챕터 클리어 (출시 당시 전체 스토리) — 이후 추가된 숲(Forest) 챕터는 미완",
       "tier": "more",
       "achievement_done": 18,
       "achievement_total": 35,
@@ -2165,7 +2151,10 @@
         "ach": "Leaving foster care",
         "date": "2025-04-20",
         "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1592290/achievements"
-      }
+      },
+      "notes": [
+        "정신병원·고아원 두 챕터 클리어 (출시 당시 전체 스토리) — 이후 추가된 숲(Forest) 챕터는 미완"
+      ]
     },
     {
       "title": "Zort",
@@ -2178,7 +2167,6 @@
       "playtime_hours": 3.5,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 5,
       "achievement_total": 20,
@@ -2206,7 +2194,6 @@
       "playtime_hours": 3.3,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 1,
       "achievement_total": 17,
@@ -2225,7 +2212,6 @@
       "playtime_hours": 3.2,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 0,
       "achievement_total": 48,
@@ -2245,7 +2231,6 @@
       "playtime_hours": 2.8,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 6,
       "achievement_total": 54,
@@ -2266,7 +2251,6 @@
       "playtime_hours": 2.8,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 0,
       "achievement_total": 33,
@@ -2285,7 +2269,6 @@
       "playtime_hours": 2.8,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 9,
       "achievement_total": 15,
@@ -2308,7 +2291,6 @@
       "playtime_hours": 2.7,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 14,
       "achievement_total": 81,
@@ -2330,7 +2312,6 @@
       "playtime_hours": 2.6,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 5,
       "achievement_total": 164,
@@ -2353,7 +2334,6 @@
       "playtime_hours": 2.6,
       "cleared": true,
       "rating": null,
-      "note": "사슬 협동 백룸 탈출 공포 — 2.6시간 만에 메인 탈출 엔딩 완파. 얼리액세스라 스팀 도전과제 미구현(증빙 불가)",
       "tier": "more",
       "achievement_pct": null,
       "steam_genres": [
@@ -2361,6 +2341,9 @@
         "어드벤처",
         "인디",
         "앞서 해보기"
+      ],
+      "notes": [
+        "사슬 협동 백룸 탈출 공포 — 2.6시간 만에 메인 탈출 엔딩 완파. 얼리액세스라 스팀 도전과제 미구현(증빙 불가)"
       ]
     },
     {
@@ -2373,7 +2356,6 @@
       "playtime_hours": 2.5,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_pct": null,
       "steam_genres": [
@@ -2393,7 +2375,6 @@
       "playtime_hours": 2.5,
       "cleared": true,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 11,
       "achievement_total": 44,
@@ -2420,7 +2401,6 @@
       "playtime_hours": 2.4,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 0,
       "achievement_total": 36,
@@ -2439,7 +2419,6 @@
       "playtime_hours": 2.4,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 0,
       "achievement_total": 21,
@@ -2459,7 +2438,6 @@
       "playtime_hours": 2.3,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 2,
       "achievement_total": 320,
@@ -2478,7 +2456,6 @@
       "playtime_hours": 2.1,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 8,
       "achievement_total": 45,
@@ -2497,7 +2474,6 @@
       "playtime_hours": 2.1,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 0,
       "achievement_total": 96,
@@ -2518,7 +2494,6 @@
       "playtime_hours": 2,
       "cleared": false,
       "rating": null,
-      "note": "",
       "tier": "more",
       "achievement_done": 13,
       "achievement_total": 21,

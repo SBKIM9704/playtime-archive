@@ -68,7 +68,7 @@ const games = raw
     playtime_hours: Math.round((g.playtime_forever / 60) * 10) / 10,
     cleared: false,            // 2단계에서 직접 체크
     rating: null,              // 선택
-    note: "",                  // 한 줄 평 직접 작성
+    notes: [],             // 사실/맥락 직접 작성 (배열)
   }))
   .filter((g) => g.playtime_hours >= MIN_HOURS)
   .sort((a, b) => b.playtime_hours - a.playtime_hours);

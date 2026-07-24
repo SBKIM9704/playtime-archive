@@ -104,7 +104,7 @@ python3 -m http.server 8000
   "playtime_hours": 61,
   "cleared": true,                   // 엔딩 여부 = 요약·필터의 기준
   "achievement_pct": 81,             // 업적 달성률
-  "note": "한 줄 평 / 사유",
+  "notes": ["사실·맥락 항목1", "항목2"], // 배열 · 여러 개면 리스트로 렌더
   "proof": {                         // 엔딩 증빙 (있으면 카드에 이미지)
     "ach": "A Peaceful Blue Hole",
     "date": "2023-08-01",

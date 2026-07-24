@@ -149,12 +149,11 @@ function achRow(g) {
       </div>`;
 }
 
-// note 렌더 — " · " 여러 조각이면 스캔 가능한 리스트로, 단문이면 그대로
-function noteHTML(note) {
-  if (!note) return "";
-  const parts = note.split(" · ").map((s) => s.trim()).filter(Boolean);
-  if (parts.length <= 1) return `<p class="gcard__note">${esc(note)}</p>`;
-  return `<ul class="gcard__notelist">${parts.map((p) => `<li>${esc(p)}</li>`).join("")}</ul>`;
+// notes 렌더 — 배열. 항목 여러 개면 스캔 가능한 리스트로, 하나면 그대로
+function noteHTML(notes) {
+  if (!Array.isArray(notes) || !notes.length) return "";
+  if (notes.length === 1) return `<p class="gcard__note">${esc(notes[0])}</p>`;
+  return `<ul class="gcard__notelist">${notes.map((n) => `<li>${esc(n)}</li>`).join("")}</ul>`;
 }
 
 // 장르 분포 막대 (전체 데이터 기준 · 필터 무관)
@@ -185,7 +184,7 @@ function imageCard(g) {
         <div class="gcard__wideinfo">
           <div class="gcard__top"><h3 class="gcard__title">${esc(g.title)}</h3></div>
           <div class="gcard__meta"><span class="gc gc--plat">${esc(g.platform)}</span></div>
-          ${noteHTML(g.note)}
+          ${noteHTML(g.notes)}
         </div>
         <a class="gcard__imgwrap" href="${esc(g.image)}" target="_blank" rel="noopener" title="원본 크게 보기">
           <img class="gcard__img" src="${esc(g.image)}" alt="${esc(g.title)} 업적 증빙" loading="lazy">
@@ -211,7 +210,7 @@ function renderList() {
         <div class="gcard__meta"${steamGenreTitle(g)}><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
         <div class="gcard__time">${timeBar(g.playtime_hours, max)}<span class="gcard__hrs">${fmtHours(g.playtime_hours)}</span></div>
         ${achRow(g)}
-        ${noteHTML(g.note)}
+        ${noteHTML(g.notes)}
         ${proofBlock(g)}
       </article>`
       )
