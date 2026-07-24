@@ -4,7 +4,20 @@
 
 - 백엔드 없음 · 빌드 스텝 없음 (vanilla HTML/CSS/JS)
 - 데이터(`games.json`)와 뷰(`index.html`)가 분리돼 있어 게임 추가가 쉽습니다
-- 요약 숫자 · 테이블 · CSV 내보내기가 모두 `games.json` **한 소스**에서 파생됩니다
+- 요약 숫자 · 카드 · CSV 내보내기가 모두 `games.json` **한 소스**에서 파생됩니다
+
+## 데이터 출처 (투명성)
+
+| 항목 | 출처 |
+|---|---|
+| 플레이타임 | **Steam Web API 실측** (`GetOwnedGames`) |
+| 과제 달성률(실적%) | **Steam Web API 실측** (`GetPlayerAchievements`) |
+| `steam_genres` (Steam 공식 장르) | **Steam 상점 API 실측** (`appdetails`) |
+| 화면 표시 장르 (`genre`) | 직접 **큐레이션** (세부 장르 — 로그라이크/덱빌딩 등). 카드 hover 시 Steam 공식 장르 툴팁 표시 |
+| 엔딩(클리어) 여부 | 본인 확인 (플레이 기억 기반) |
+| FC 온라인 등급 | **넥슨 오픈 API 실측** |
+
+> 즉 플레이타임·실적·공식장르는 API 실측이고, 화면의 세부 장르만 큐레이션입니다 (공식 장르는 `steam_genres`·CSV에 병기).
 
 ```
 index.html            단일 페이지

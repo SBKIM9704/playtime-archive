@@ -99,6 +99,9 @@ function currentGames(tier) {
 // ---------- 카드 렌더 헬퍼 ----------
 const fmtHours = (h) => (h == null ? "—" : h.toLocaleString("ko-KR") + "h");
 const genreChips = (gs) => (gs || []).map((g) => `<span class="gc">${esc(g)}</span>`).join("");
+// Steam 공식 장르(API) 검증 레이어 — 카드 hover 툴팁
+const steamGenreTitle = (g) =>
+  g.steam_genres && g.steam_genres.length ? ` title="Steam 공식 장르: ${esc(g.steam_genres.join(", "))}"` : "";
 const clearedBadge = (g) =>
   `<span class="badge ${g.cleared ? "badge--yes" : "badge--no"}">${g.cleared ? "● 엔딩" : "○ 진행"}</span>`;
 
@@ -153,7 +156,7 @@ function renderTables() {
           <h3 class="gcard__title">${esc(g.title)}</h3>
           ${clearedBadge(g)}
         </div>
-        <div class="gcard__meta"><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
+        <div class="gcard__meta"${steamGenreTitle(g)}><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
         <div class="gcard__time">${timeBar(g.playtime_hours, deepMax)}<span class="gcard__hrs">${fmtHours(g.playtime_hours)}</span></div>
         ${achRow(g)}
         ${g.note ? `<p class="gcard__note">${esc(g.note)}</p>` : ""}
@@ -173,7 +176,7 @@ function renderTables() {
           <h3 class="gcard__title">${esc(g.title)}</h3>
           <span class="dot ${g.cleared ? "dot--yes" : ""}" title="${g.cleared ? "엔딩" : "진행"}"></span>
         </div>
-        <div class="gcard__meta"><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
+        <div class="gcard__meta"${steamGenreTitle(g)}><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
         <div class="gcard__time">${timeBar(g.playtime_hours, moreMax)}<span class="gcard__hrs">${fmtHours(g.playtime_hours)}</span></div>
         ${achRow(g)}
       </article>`
@@ -235,11 +238,12 @@ function wireControls() {
 /* CSV export — 5단계 스프레드시트 정식 제출용, 같은 데이터에서 파생 */
 function exportCSV() {
   const games = state.data.games || [];
-  const header = ["타이틀", "플랫폼", "장르", "플레이타임(시간)", "클리어", "실적%", "평점", "구분", "한줄평"];
+  const header = ["타이틀", "플랫폼", "장르(큐레이션)", "Steam공식장르", "플레이타임(시간)", "클리어", "실적%", "평점", "구분", "한줄평"];
   const lines = [header, ...games.map((g) => [
     g.title,
     g.platform,
     (g.genre || []).join(" / "),
+    (g.steam_genres || []).join(" / "),
     g.playtime_hours ?? "",
     g.cleared ? "Y" : "N",
     g.achievement_pct ?? "",
