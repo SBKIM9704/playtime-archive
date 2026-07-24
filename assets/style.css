@@ -193,12 +193,41 @@ main { max-width: 1080px; margin: 0 auto; padding: 0 24px 40px; }
   letter-spacing: 0.03em;
 }
 
+.panel__count {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--ink-faint);
+  font-weight: 500;
+  margin-left: 4px;
+}
+
 /* ---------- controls ---------- */
 .controls {
   display: flex;
   align-items: center;
   gap: 18px;
   flex-wrap: wrap;
+}
+.controls--stack {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+.ctrl-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.ctrl-label {
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  width: 48px;
+  flex-shrink: 0;
 }
 .filter { display: flex; gap: 6px; flex-wrap: wrap; }
 .chip {

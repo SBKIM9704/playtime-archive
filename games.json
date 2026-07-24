@@ -2,7 +2,7 @@
   "profile": {
     "name": "김승범",
     "handle": "player_one",
-    "tagline": "장르 불문 50+ 타이틀 엔딩 · LoL 다이아 서포터 · FC 온라인 챌린지1",
+    "tagline": "장르 불문 35 타이틀 엔딩(Steam 검증) · LoL 다이아 서포터 · FC 온라인 챌린지1",
     "intro": "",
     "updated": "2026-07-23"
   },
@@ -192,7 +192,7 @@
       "playtime_hours": 91.3,
       "cleared": true,
       "rating": null,
-      "note": "절차적 세계에 건축·항해·보스를 얹어 '다음 목표'가 자연히 생기는 생존게임.",
+      "note": "절차적 세계에 건축·항해·보스를 얹은 생존게임. (전 보스 클리어 · Steam 도전과제 미지원이라 증빙 불가)",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
@@ -390,7 +390,7 @@
       "playtime_hours": 49.4,
       "cleared": true,
       "rating": null,
-      "note": "쿼터뷰에 소울라이크의 무게를 이식한 액션 RPG. 타격의 밀도가 좋다.",
+      "note": "쿼터뷰에 소울라이크의 무게를 이식한 액션 RPG. (얼리액세스 · 엔딩 도전과제 미구현)",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
@@ -427,7 +427,7 @@
         "액션RPG"
       ],
       "playtime_hours": 47.6,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "복셀 건축과 액션 RPG를 합친 생존물. 지형을 직접 깎는 자유도가 강점.",
       "tier": "deep",
@@ -450,7 +450,7 @@
         "오픈월드"
       ],
       "playtime_hours": 45.4,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "수집에 생존·자동화를 얹어 '펠이 곧 노동력'이 되는 시스템의 영리함.",
       "tier": "deep",
@@ -573,7 +573,7 @@
         "오픈월드"
       ],
       "playtime_hours": 36,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "기계 동물의 약점을 파훼하는 전투 설계가 오픈월드의 반복을 지탱한다.",
       "tier": "deep",
@@ -621,7 +621,7 @@
         "헌팅액션"
       ],
       "playtime_hours": 30.5,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "무리 생태와 이음새 없는 필드로 '살아있는 사냥터'를 지향한 최신작.",
       "tier": "deep",
@@ -662,7 +662,7 @@
         "퍼즐"
       ],
       "playtime_hours": 28.1,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "가방 칸 배치가 곧 빌드. 인벤토리 관리를 로그라이크로 만든 발상.",
       "tier": "deep",
@@ -685,7 +685,7 @@
         "액션"
       ],
       "playtime_hours": 25,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "과로에 시달리는 사신이라는 설정부터 매력. 스타일리시 로그라이크 액션.",
       "tier": "deep",
@@ -746,7 +746,7 @@
         "협동"
       ],
       "playtime_hours": 21.7,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "둘이 배 한 척을 지키는 협동 로그라이크. 역할 분담이 곧 재미.",
       "tier": "deep",
@@ -810,7 +810,7 @@
       "playtime_hours": 20.9,
       "cleared": true,
       "rating": null,
-      "note": "도시 자체가 놀이터인 파쿠르. 시리즈 정체성을 완성한 작품.",
+      "note": "도시 자체가 놀이터인 파쿠르. 시리즈 정체성을 완성한 작품. (구 유비소프트작 · 도전과제가 Uplay에 귀속되어 Steam 증빙 불가)",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
@@ -850,7 +850,7 @@
       "playtime_hours": 20.2,
       "cleared": true,
       "rating": null,
-      "note": "잠입·군중 은신이라는 시리즈의 핵심 아이디어가 처음 제시된 원점.",
+      "note": "잠입·군중 은신이라는 시리즈의 핵심 아이디어가 처음 제시된 원점. (구 유비소프트작 · 도전과제 Uplay 귀속)",
       "tier": "deep",
       "achievement_pct": null,
       "steam_genres": [
@@ -888,7 +888,7 @@
         "크래프팅"
       ],
       "playtime_hours": 18.1,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "표류라는 제약 하나로 생존·확장의 방향을 명확히 잡은 협동 크래프팅.",
       "tier": "deep",
@@ -1070,7 +1070,7 @@
         "슈터"
       ],
       "playtime_hours": 12.9,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "로그라이크의 반복을 탄막 슈팅과 심리 서사로 재해석한 실험작.",
       "tier": "deep",
@@ -1108,7 +1108,7 @@
         "로그라이크"
       ],
       "playtime_hours": 12.6,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "슬롯머신을 로그라이크로 만든 도박 호러. 탐욕이 곧 게임 루프.",
       "tier": "deep",
@@ -1158,7 +1158,7 @@
         "뱀서라이크"
       ],
       "playtime_hours": 11.9,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "원작 세계관을 뱀서라이크로 옮긴 스핀오프. 짧고 강한 도파민.",
       "tier": "deep",
@@ -1231,7 +1231,7 @@
         "협동"
       ],
       "playtime_hours": 10.8,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "물렁한 물리 조작이 곧 웃음 포인트. 실패가 재미인 협동 퍼즐.",
       "tier": "deep",
@@ -1384,7 +1384,7 @@
         "호러"
       ],
       "playtime_hours": 9.1,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "",
       "tier": "more",
@@ -1563,7 +1563,7 @@
         "로그라이크"
       ],
       "playtime_hours": 7.7,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "",
       "tier": "more",
@@ -1716,7 +1716,7 @@
         "퍼즐"
       ],
       "playtime_hours": 5.9,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "",
       "tier": "more",
@@ -2296,7 +2296,7 @@
         "로그라이크"
       ],
       "playtime_hours": 2.4,
-      "cleared": true,
+      "cleared": false,
       "rating": null,
       "note": "",
       "tier": "more",

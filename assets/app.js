@@ -4,6 +4,7 @@
 const state = {
   data: null,
   platform: "ALL",
+  ending: "ALL",
   sort: "playtime",
 };
 
@@ -27,8 +28,9 @@ async function init() {
   renderProfile();
   renderStats();
   buildPlatformFilter();
+  buildEndingFilter();
   renderGenreChart();
-  renderTables();
+  renderList();
   renderHighlights();
   wireControls();
 
@@ -82,11 +84,27 @@ function buildPlatformFilter() {
     .join("");
 }
 
-function currentGames(tier) {
-  let games = (state.data.games || []).filter((g) => g.tier === tier);
-  if (state.platform !== "ALL") {
-    games = games.filter((g) => g.platform === state.platform);
-  }
+function buildEndingFilter() {
+  const games = state.data.games || [];
+  const cleared = games.filter((g) => g.cleared).length;
+  const opts = [
+    ["ALL", `전체 ${games.length}`],
+    ["cleared", `엔딩 ${cleared}`],
+    ["progress", `진행 ${games.length - cleared}`],
+  ];
+  $("#ending-filter").innerHTML = opts
+    .map(
+      ([v, label]) =>
+        `<button class="chip" role="button" data-ending="${v}" aria-pressed="${v === state.ending}">${label}</button>`
+    )
+    .join("");
+}
+
+function currentGames() {
+  let games = [...(state.data.games || [])];
+  if (state.platform !== "ALL") games = games.filter((g) => g.platform === state.platform);
+  if (state.ending === "cleared") games = games.filter((g) => g.cleared);
+  else if (state.ending === "progress") games = games.filter((g) => !g.cleared);
   const s = state.sort;
   games.sort((a, b) => {
     if (s === "title") return a.title.localeCompare(b.title, "ko");
@@ -158,12 +176,12 @@ function imageCard(g) {
       </article>`;
 }
 
-function renderTables() {
-  // ① 깊게 파고든 게임 — 한 줄 평 포함 카드
-  const deep = currentGames("deep");
-  const deepMax = Math.max(1, ...deep.map((g) => g.playtime_hours || 0));
-  $("#deep-list").innerHTML =
-    deep
+// 통합 게임 이력 리스트 — 필터/정렬 적용
+function renderList() {
+  const games = currentGames();
+  const max = Math.max(1, ...games.map((g) => g.playtime_hours || 0));
+  $("#game-list").innerHTML =
+    games
       .map((g) =>
         g.image
           ? imageCard(g)
@@ -174,7 +192,7 @@ function renderTables() {
           ${clearedBadge(g)}
         </div>
         <div class="gcard__meta"${steamGenreTitle(g)}><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
-        <div class="gcard__time">${timeBar(g.playtime_hours, deepMax)}<span class="gcard__hrs">${fmtHours(g.playtime_hours)}</span></div>
+        <div class="gcard__time">${timeBar(g.playtime_hours, max)}<span class="gcard__hrs">${fmtHours(g.playtime_hours)}</span></div>
         ${achRow(g)}
         ${g.note ? `<p class="gcard__note">${esc(g.note)}</p>` : ""}
         ${proofBlock(g)}
@@ -182,33 +200,13 @@ function renderTables() {
       )
       .join("") || emptyMsg();
 
-  // ② 그 외 — 컴팩트 카드 (리뷰 없음)
-  const more = currentGames("more");
-  const moreMax = Math.max(1, ...more.map((g) => g.playtime_hours || 0));
-  $("#more-list").innerHTML =
-    more
-      .map(
-        (g) => `
-      <article class="gcard gcard--compact">
-        <div class="gcard__top">
-          <h3 class="gcard__title">${esc(g.title)}</h3>
-          <span class="dot ${g.cleared ? "dot--yes" : ""}" title="${g.cleared ? "엔딩" : "진행"}"></span>
-        </div>
-        <div class="gcard__meta"${steamGenreTitle(g)}><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
-        <div class="gcard__time">${timeBar(g.playtime_hours, moreMax)}<span class="gcard__hrs">${fmtHours(g.playtime_hours)}</span></div>
-        ${achRow(g)}
-        ${proofBlock(g)}
-      </article>`
-      )
-      .join("") || emptyMsg();
-
-  const total = (state.data.games || []).filter((g) => g.tier === "more").length;
-  const el = $("#more-count");
-  if (el) el.textContent = more.length === total ? `장르별로 폭넓게 경험 · ${total}개` : `${more.length} / ${total}개 (필터 적용)`;
+  const total = (state.data.games || []).length;
+  const el = $("#list-count");
+  if (el) el.textContent = games.length === total ? `· ${total}개` : `· ${games.length} / ${total}`;
 }
 
 function emptyMsg() {
-  return `<p class="empty">해당 플랫폼의 기록이 없습니다.</p>`;
+  return `<p class="empty">조건에 맞는 게임이 없습니다.</p>`;
 }
 
 // 엔딩 증빙 — Steam 공식 도전과제 캡처를 카드에 삽입
@@ -253,12 +251,22 @@ function wireControls() {
     document.querySelectorAll("#platform-filter .chip").forEach((c) =>
       c.setAttribute("aria-pressed", String(c.dataset.platform === state.platform))
     );
-    renderTables();
+    renderList();
+  });
+
+  $("#ending-filter").addEventListener("click", (e) => {
+    const btn = e.target.closest(".chip");
+    if (!btn) return;
+    state.ending = btn.dataset.ending;
+    document.querySelectorAll("#ending-filter .chip").forEach((c) =>
+      c.setAttribute("aria-pressed", String(c.dataset.ending === state.ending))
+    );
+    renderList();
   });
 
   $("#sort-select").addEventListener("change", (e) => {
     state.sort = e.target.value;
-    renderTables();
+    renderList();
   });
 
   $("#csv-btn").addEventListener("click", exportCSV);

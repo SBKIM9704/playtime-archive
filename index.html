@@ -35,10 +35,17 @@
       <div class="genre-chart" id="genre-chart"></div>
     </section>
 
-    <section class="panel" aria-label="깊게 파고든 게임">
+    <section class="panel" aria-label="게임 이력">
       <div class="panel__head">
-        <h2 class="panel__title"><span class="panel__num">01</span> 깊게 파고든 게임</h2>
-        <div class="controls">
+        <h2 class="panel__title"><span class="panel__num">01</span> 게임 이력 <span class="panel__count" id="list-count"></span></h2>
+      </div>
+      <div class="controls controls--stack">
+        <div class="ctrl-row">
+          <span class="ctrl-label">엔딩</span>
+          <div class="filter" id="ending-filter" role="group" aria-label="엔딩 필터"></div>
+        </div>
+        <div class="ctrl-row">
+          <span class="ctrl-label">플랫폼</span>
           <div class="filter" id="platform-filter" role="group" aria-label="플랫폼 필터"></div>
           <label class="sort">
             정렬
@@ -50,15 +57,7 @@
           </label>
         </div>
       </div>
-      <div class="cards" id="deep-list"></div>
-    </section>
-
-    <section class="panel" aria-label="그 외 플레이한 게임">
-      <div class="panel__head">
-        <h2 class="panel__title"><span class="panel__num">02</span> 그 외 플레이한 게임</h2>
-        <p class="panel__sub" id="more-count">장르별로 폭넓게 경험</p>
-      </div>
-      <div class="cards cards--compact" id="more-list"></div>
+      <div class="cards" id="game-list"></div>
     </section>
 
     <section class="panel" aria-label="하이라이트">
