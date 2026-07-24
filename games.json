@@ -2,7 +2,7 @@
   "profile": {
     "name": "김승범",
     "handle": "player_one",
-    "tagline": "장르 불문 35 타이틀 엔딩(Steam 검증) · LoL 다이아 서포터 · FC 온라인 챌린지1",
+    "tagline": "장르 불문 39 타이틀 엔딩(Steam 검증) · LoL 다이아 서포터 · FC 온라인 챌린지1",
     "intro": "",
     "updated": "2026-07-23"
   },
@@ -427,7 +427,7 @@
         "액션RPG"
       ],
       "playtime_hours": 47.6,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
       "note": "복셀 건축과 액션 RPG를 합친 생존물. 지형을 직접 깎는 자유도가 강점.",
       "tier": "deep",
@@ -440,7 +440,13 @@
         "인디",
         "RPG",
         "앞서 해보기"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1203620.png",
+        "ach": "Dethroned",
+        "date": "2024-08-16",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1203620/achievements"
+      }
     },
     {
       "title": "Palworld",
@@ -746,7 +752,7 @@
         "협동"
       ],
       "playtime_hours": 21.7,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
       "note": "둘이 배 한 척을 지키는 협동 로그라이크. 역할 분담이 곧 재미.",
       "tier": "deep",
@@ -756,7 +762,13 @@
       "steam_genres": [
         "액션",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1286580.png",
+        "ach": "It's the Aquapocalypse",
+        "date": "2025-01-10",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1286580/achievements"
+      }
     },
     {
       "title": "Lethal Company",
@@ -888,7 +900,7 @@
         "크래프팅"
       ],
       "playtime_hours": 18.1,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
       "note": "표류라는 제약 하나로 생존·확장의 방향을 명확히 잡은 협동 크래프팅.",
       "tier": "deep",
@@ -899,7 +911,13 @@
         "어드벤처",
         "인디",
         "시뮬레이션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/648800.png",
+        "ach": "There Is A Utopia!",
+        "date": "2024-04-08",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/648800/achievements"
+      }
     },
     {
       "title": "Once Human",
@@ -1563,7 +1581,7 @@
         "로그라이크"
       ],
       "playtime_hours": 7.7,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
       "note": "",
       "tier": "more",
@@ -1574,7 +1592,13 @@
         "RPG",
         "전략",
         "앞서 해보기"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/2784470.png",
+        "ach": "Piece of Cake",
+        "date": "2025-07-11",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/2784470/achievements"
+      }
     },
     {
       "title": "GTFO",
