@@ -1091,6 +1091,28 @@
       }
     },
     {
+      "title": "We Were Here Too",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "퍼즐"
+      ],
+      "playtime_hours": 1.9,
+      "cleared": true,
+      "rating": null,
+      "note": "2인 협동 방탈출 — 최종장 희생/탈출 엔딩 (Relation Elevation)",
+      "tier": "more",
+      "achievement_done": 10,
+      "achievement_total": 20,
+      "achievement_pct": 50,
+      "proof": {
+        "image": "./assets/proofs/677160.png",
+        "ach": "Relation Elevation",
+        "date": "2023-10-03",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/677160/achievements"
+      }
+    },
+    {
       "title": "Baldur's Gate 3",
       "platform": "Steam",
       "genre": [
@@ -1783,9 +1805,9 @@
         "퍼즐"
       ],
       "playtime_hours": 5.9,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
-      "note": "",
+      "note": "2인 협동 퍼즐 — 친구와 처음부터 끝까지 완주. 최종 엔딩 과제(Together)는 역할 분담상 파트너 계정에 귀속되어 본인 계정엔 미표시",
       "tier": "more",
       "achievement_done": 12,
       "achievement_total": 22,
