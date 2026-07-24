@@ -1921,9 +1921,9 @@
         "플랫포머"
       ],
       "playtime_hours": 4.9,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
-      "note": "",
+      "note": "지옥→지하철→도시→신들의 영역을 거쳐 최종 지역 '정원(The Garden)' 도달 (사실상 완등)",
       "tier": "more",
       "achievement_done": 13,
       "achievement_total": 16,
@@ -1933,7 +1933,13 @@
         "캐주얼",
         "인디",
         "시뮬레이션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/2567870.png",
+        "ach": "The Garden",
+        "date": "2024-07-16",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/2567870/achievements"
+      }
     },
     {
       "title": "Enter the Gungeon",
