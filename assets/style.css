@@ -455,51 +455,31 @@ main { max-width: 1080px; margin: 0 auto; padding: 0 24px 40px; }
   .gcard__imgwrap { margin: 0 auto; }
 }
 
-/* ---------- 엔딩 증빙 갤러리 ---------- */
-.proofs {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-}
-.proof {
-  background: var(--panel);
-  border: 1px solid var(--line);
-  border-radius: var(--radius);
-  padding: 12px 14px;
-}
-.proof__cap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin-bottom: 9px;
-}
-.proof__game {
-  font-weight: 600;
-  color: var(--ink);
-  font-size: 0.9rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.proof__link {
-  font-family: var(--mono);
-  font-size: 0.72rem;
-  color: var(--cyan);
-  text-decoration: none;
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.proof__link:hover { color: var(--amber); }
-.proof__imgwrap {
+/* ---------- 엔딩 증빙 (카드 내 삽입) ---------- */
+.gcard__proof {
   display: block;
-  line-height: 0;
+  margin-top: 4px;
+  border: 1px solid rgba(245,185,66,0.35);
   border-radius: 8px;
   overflow: hidden;
-  border: 1px solid var(--line-soft);
+  background: var(--bg-2);
+  text-decoration: none;
+  transition: border-color 0.15s ease;
 }
-.proof__img { width: 100%; height: auto; display: block; }
-@media (max-width: 760px) { .proofs { grid-template-columns: 1fr; } }
+.gcard__proof:hover { border-color: var(--amber); }
+.gcard__proofcap {
+  display: block;
+  font-family: var(--mono);
+  font-size: 0.66rem;
+  color: var(--amber);
+  padding: 5px 9px 4px;
+  letter-spacing: 0.02em;
+}
+.gcard__proof img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 /* ---------- highlights ---------- */
 .highlights {

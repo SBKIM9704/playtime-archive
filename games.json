@@ -59,7 +59,13 @@
       "achievement_pct": 73,
       "steam_genres": [
         "액션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/582010.png",
+        "ach": "Fate's Conclusion",
+        "date": "2020-02-03",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/582010/achievements"
+      }
     },
     {
       "title": "The Binding of Isaac: Rebirth",
@@ -142,7 +148,13 @@
       "achievement_pct": 47,
       "steam_genres": [
         "액션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1446780.png",
+        "ach": "Calamity Conqueror Scroll",
+        "date": "2022-01-26",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1446780/achievements"
+      }
     },
     {
       "title": "Slay the Spire",
@@ -251,7 +263,13 @@
       "steam_genres": [
         "시뮬레이션",
         "전략"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/323190.png",
+        "ach": "Leader",
+        "date": "2023-10-07",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/323190/achievements"
+      }
     },
     {
       "title": "ELDEN RING",
@@ -322,7 +340,13 @@
         "인디",
         "RPG",
         "앞서 해보기"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/2436940.png",
+        "ach": "Last Gatekeeper",
+        "date": "2025-10-11",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/2436940/achievements"
+      }
     },
     {
       "title": "Skul: The Hero Slayer",
@@ -507,7 +531,13 @@
         "캐주얼",
         "인디",
         "전략"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/2379780.png",
+        "ach": "Ante Upper!",
+        "date": "2025-01-04",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/2379780/achievements"
+      }
     },
     {
       "title": "DJMAX RESPECT V",
@@ -1269,7 +1299,13 @@
         "어드벤처",
         "인디",
         "RPG"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/858820.png",
+        "ach": "Back to Asgarð",
+        "date": "2025-02-17",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/858820/achievements"
+      }
     },
     {
       "title": "Two Point Hospital",
@@ -1706,7 +1742,13 @@
         "캐주얼",
         "인디",
         "시뮬레이션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/3948120.png",
+        "ach": "Win everything?",
+        "date": "2026-04-05",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/3948120/achievements"
+      }
     },
     {
       "title": "Assassin's Creed IV Black Flag",
@@ -1993,7 +2035,13 @@
         "어드벤처",
         "인디",
         "앞서 해보기"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/3121110.png",
+        "ach": "Escape from Yozgat",
+        "date": "2024-12-11",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/3121110/achievements"
+      }
     },
     {
       "title": "Subnautica",
@@ -2202,7 +2250,13 @@
         "어드벤처",
         "인디",
         "앞서 해보기"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/3645890.png",
+        "ach": "You Survived",
+        "date": "2025-08-31",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/3645890/achievements"
+      }
     },
     {
       "title": "Black Squad",
