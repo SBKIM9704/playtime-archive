@@ -254,42 +254,6 @@ function wireControls() {
     state.sort = e.target.value;
     renderList();
   });
-
-  $("#csv-btn").addEventListener("click", exportCSV);
-}
-
-/* CSV export — 5단계 스프레드시트 정식 제출용, 같은 데이터에서 파생 */
-function exportCSV() {
-  const games = state.data.games || [];
-  const header = ["타이틀", "플랫폼", "장르(큐레이션)", "Steam공식장르", "플레이타임(시간)", "클리어", "업적%", "평점", "구분", "한줄평"];
-  const lines = [header, ...games.map((g) => [
-    g.title,
-    g.platform,
-    (g.genre || []).join(" / "),
-    (g.steam_genres || []).join(" / "),
-    g.playtime_hours ?? "",
-    g.cleared ? "Y" : "N",
-    g.achievement_pct ?? "",
-    g.rating ?? "",
-    g.tier === "deep" ? "깊게" : "그외",
-    g.note || "",
-  ])];
-  // BOM for Excel/Google Sheets Korean encoding
-  const csv = "﻿" + lines.map((row) => row.map(csvCell).join(",")).join("\r\n");
-  const blob = new Blob([csv], { type: "text/csv;charset=utf-8" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = `playtime-archive-${state.data.profile?.updated || "export"}.csv`;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  URL.revokeObjectURL(url);
-}
-
-function csvCell(v) {
-  const s = String(v ?? "");
-  return /[",\r\n]/.test(s) ? `"${s.replace(/"/g, '""')}"` : s;
 }
 
 function esc(s) {
