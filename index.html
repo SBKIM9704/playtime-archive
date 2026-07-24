@@ -27,6 +27,14 @@
       <!-- stat cards injected by app.js -->
     </section>
 
+    <section class="panel panel--genre" aria-label="장르 분포">
+      <div class="panel__head">
+        <h2 class="panel__title"><span class="panel__num">00</span> 장르 분포</h2>
+        <p class="panel__sub" id="genre-sub">장르를 가리지 않는 폭</p>
+      </div>
+      <div class="genre-chart" id="genre-chart"></div>
+    </section>
+
     <section class="panel" aria-label="깊게 파고든 게임">
       <div class="panel__head">
         <h2 class="panel__title"><span class="panel__num">01</span> 깊게 파고든 게임</h2>
@@ -42,21 +50,7 @@
           </label>
         </div>
       </div>
-      <div class="table-wrap">
-        <table class="games">
-          <thead>
-            <tr>
-              <th class="col-title">타이틀</th>
-              <th class="col-plat">플랫폼</th>
-              <th class="col-genre">장르</th>
-              <th class="col-time">플레이타임</th>
-              <th class="col-clear">엔딩</th>
-              <th class="col-note">한 줄 평</th>
-            </tr>
-          </thead>
-          <tbody id="games-body"></tbody>
-        </table>
-      </div>
+      <div class="cards" id="deep-list"></div>
     </section>
 
     <section class="panel" aria-label="그 외 플레이한 게임">
@@ -64,20 +58,7 @@
         <h2 class="panel__title"><span class="panel__num">02</span> 그 외 플레이한 게임</h2>
         <p class="panel__sub" id="more-count">장르별로 폭넓게 경험</p>
       </div>
-      <div class="table-wrap">
-        <table class="games games--compact">
-          <thead>
-            <tr>
-              <th class="col-title">타이틀</th>
-              <th class="col-plat">플랫폼</th>
-              <th class="col-genre">장르</th>
-              <th class="col-time">플레이타임</th>
-              <th class="col-clear">엔딩</th>
-            </tr>
-          </thead>
-          <tbody id="more-body"></tbody>
-        </table>
-      </div>
+      <div class="cards cards--compact" id="more-list"></div>
     </section>
 
     <section class="panel" aria-label="하이라이트">

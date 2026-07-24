@@ -242,69 +242,151 @@ main { max-width: 1080px; margin: 0 auto; padding: 0 24px 40px; }
 .chip:focus-visible,
 .btn-csv:focus-visible { outline: 2px solid var(--amber); outline-offset: 2px; }
 
-/* ---------- table ---------- */
-.table-wrap {
-  overflow-x: auto;
-  border: 1px solid var(--line-soft);
-  border-radius: var(--radius);
+/* ---------- 장르 분포 차트 ---------- */
+.genre-chart {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px 32px;
+}
+.gbar {
+  display: grid;
+  grid-template-columns: 84px 1fr 28px;
+  align-items: center;
+  gap: 12px;
+}
+.gbar__label {
+  font-size: 0.82rem;
+  color: var(--ink-dim);
+  text-align: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.gbar__track {
+  height: 9px;
   background: var(--panel);
+  border: 1px solid var(--line-soft);
+  border-radius: 999px;
+  overflow: hidden;
 }
-table.games {
-  width: 100%;
-  border-collapse: collapse;
-  min-width: 720px;
+.gbar__fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--amber-dim), var(--amber));
+  border-radius: 999px;
+  min-width: 4px;
 }
-.games thead th {
+.gbar__n {
   font-family: var(--mono);
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  font-size: 0.78rem;
   color: var(--ink-faint);
-  text-align: left;
-  padding: 14px 16px;
-  border-bottom: 1px solid var(--line);
-  background: var(--bg-2);
-  position: sticky;
-  top: 0;
-  white-space: nowrap;
+  text-align: right;
 }
-.games tbody td {
-  padding: 15px 16px;
-  border-bottom: 1px solid var(--line-soft);
-  vertical-align: top;
-  font-size: 0.9rem;
+
+/* ---------- 게임 카드 ---------- */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
 }
-.games tbody tr:last-child td { border-bottom: none; }
-.games tbody tr { transition: background 0.12s ease; }
-.games tbody tr:hover { background: rgba(245,185,66,0.035); }
-.g-title { font-weight: 600; color: var(--ink); white-space: nowrap; }
-.g-plat {
+.cards--compact {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+.gcard {
+  background: linear-gradient(165deg, var(--panel-2), var(--panel));
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+.gcard:hover { border-color: var(--amber-dim); transform: translateY(-2px); }
+.gcard__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+.gcard__title {
+  margin: 0;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.3;
+}
+.gcard--compact .gcard__title { font-size: 0.9rem; }
+
+.badge {
   font-family: var(--mono);
-  font-size: 0.72rem;
-  color: var(--cyan);
-  border: 1px solid rgba(79,209,197,0.3);
+  font-size: 0.68rem;
+  white-space: nowrap;
+  padding: 3px 8px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+.badge--yes { color: #1a1206; background: var(--amber); font-weight: 600; }
+.badge--no { color: var(--ink-faint); border: 1px solid var(--line); }
+
+.dot {
+  width: 9px; height: 9px;
+  border-radius: 999px;
+  border: 1px solid var(--ink-faint);
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.dot--yes { background: var(--amber); border-color: var(--amber); box-shadow: 0 0 6px rgba(245,185,66,0.5); }
+
+.gcard__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.gc {
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  color: var(--ink-dim);
+  background: rgba(255,255,255,0.03);
+  border: 1px solid var(--line-soft);
   border-radius: 6px;
-  padding: 2px 8px;
+  padding: 2px 7px;
   white-space: nowrap;
 }
-.g-genre { color: var(--ink-dim); font-size: 0.82rem; }
-.g-time {
+.gc--plat { color: var(--cyan); border-color: rgba(79,209,197,0.3); }
+
+.gcard__time {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.pbar {
+  flex: 1;
+  height: 5px;
+  background: var(--bg-2);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.pbar__fill {
+  height: 100%;
+  background: linear-gradient(90deg, rgba(79,209,197,0.5), var(--cyan));
+  border-radius: 999px;
+}
+.gcard__hrs {
   font-family: var(--mono);
+  font-size: 0.8rem;
   font-weight: 500;
   color: var(--ink);
   white-space: nowrap;
 }
-.g-time .unit { color: var(--ink-faint); font-size: 0.78em; margin-left: 2px; }
-.g-clear { white-space: nowrap; font-family: var(--mono); font-size: 0.8rem; }
-.g-clear.yes { color: var(--amber); }
-.g-clear.no { color: var(--ink-faint); }
-.g-note { color: var(--ink-dim); min-width: 260px; font-weight: 300; }
-.g-time--na { color: var(--ink-faint); }
-
-/* compact table (② 그 외 플레이한 게임) */
-.games--compact { min-width: 560px; }
-.games--compact tbody td { padding: 11px 16px; font-size: 0.85rem; }
-.games--compact .g-title { font-weight: 500; }
+.gcard__note {
+  margin: 2px 0 0;
+  font-size: 0.86rem;
+  font-weight: 300;
+  color: var(--ink-dim);
+  line-height: 1.55;
+}
+.empty { padding: 24px; color: var(--ink-faint); }
 
 /* ---------- highlights ---------- */
 .highlights {
@@ -386,10 +468,16 @@ table.games {
 }
 
 /* ---------- responsive ---------- */
+@media (max-width: 860px) {
+  .cards { grid-template-columns: 1fr; }
+  .genre-chart { grid-template-columns: 1fr; }
+}
 @media (max-width: 720px) {
   .stats { grid-template-columns: repeat(2, 1fr); }
   .panel__head { flex-direction: column; align-items: flex-start; }
+  .cards--compact { grid-template-columns: repeat(2, 1fr); }
 }
 @media (max-width: 420px) {
   .stats { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .gbar { grid-template-columns: 76px 1fr 24px; gap: 8px; }
 }

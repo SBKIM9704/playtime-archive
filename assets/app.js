@@ -27,6 +27,7 @@ async function init() {
   renderProfile();
   renderStats();
   buildPlatformFilter();
+  renderGenreChart();
   renderTables();
   renderHighlights();
   wireControls();
@@ -95,40 +96,84 @@ function currentGames(tier) {
   return games;
 }
 
-// 플레이타임 표시: null/미상은 "—"
-function fmtTime(h) {
-  if (h == null) return `<span class="g-time g-time--na">—</span>`;
-  return `<span class="g-time">${h.toLocaleString("ko-KR")}<span class="unit">h</span></span>`;
+// ---------- 카드 렌더 헬퍼 ----------
+const fmtHours = (h) => (h == null ? "—" : h.toLocaleString("ko-KR") + "h");
+const genreChips = (gs) => (gs || []).map((g) => `<span class="gc">${esc(g)}</span>`).join("");
+const clearedBadge = (g) =>
+  `<span class="badge ${g.cleared ? "badge--yes" : "badge--no"}">${g.cleared ? "● 엔딩" : "○ 진행"}</span>`;
+
+// tier 내 최대값 대비 플레이타임 바
+function timeBar(h, max) {
+  const pct = h == null || !max ? 0 : Math.max(3, Math.round((h / max) * 100));
+  return `<div class="pbar"><div class="pbar__fill" style="width:${pct}%"></div></div>`;
 }
-function cellsCommon(g) {
-  return `
-        <td class="col-title"><span class="g-title">${esc(g.title)}</span></td>
-        <td class="col-plat"><span class="g-plat">${esc(g.platform)}</span></td>
-        <td class="col-genre"><span class="g-genre">${(g.genre || []).map(esc).join(" · ")}</span></td>
-        <td class="col-time">${fmtTime(g.playtime_hours)}</td>
-        <td class="col-clear"><span class="g-clear ${g.cleared ? "yes" : "no"}">${g.cleared ? "● 클리어" : "○ 진행"}</span></td>`;
+
+// 장르 분포 막대 (전체 데이터 기준 · 필터 무관)
+function renderGenreChart() {
+  const counts = {};
+  (state.data.games || []).forEach((g) => (g.genre || []).forEach((x) => (counts[x] = (counts[x] || 0) + 1)));
+  const entries = Object.entries(counts).sort((a, b) => b[1] - a[1]);
+  const max = entries.length ? entries[0][1] : 1;
+  const top = entries.slice(0, 14);
+  const sub = $("#genre-sub");
+  if (sub) sub.textContent = `${entries.length}개 장르 · 상위 ${top.length}`;
+  $("#genre-chart").innerHTML = top
+    .map(
+      ([name, n]) => `
+      <div class="gbar">
+        <div class="gbar__label">${esc(name)}</div>
+        <div class="gbar__track"><div class="gbar__fill" style="width:${Math.round((n / max) * 100)}%"></div></div>
+        <div class="gbar__n">${n}</div>
+      </div>`
+    )
+    .join("");
 }
 
 function renderTables() {
-  // ① 깊게 파고든 게임 — 한 줄 평 포함
-  const deep = currentGames("deep")
-    .map((g) => `<tr>${cellsCommon(g)}<td class="col-note"><span class="g-note">${esc(g.note || "")}</span></td></tr>`)
-    .join("");
-  $("#games-body").innerHTML = deep || emptyRow(6);
+  // ① 깊게 파고든 게임 — 한 줄 평 포함 카드
+  const deep = currentGames("deep");
+  const deepMax = Math.max(1, ...deep.map((g) => g.playtime_hours || 0));
+  $("#deep-list").innerHTML =
+    deep
+      .map(
+        (g) => `
+      <article class="gcard">
+        <div class="gcard__top">
+          <h3 class="gcard__title">${esc(g.title)}</h3>
+          ${clearedBadge(g)}
+        </div>
+        <div class="gcard__meta"><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
+        <div class="gcard__time">${timeBar(g.playtime_hours, deepMax)}<span class="gcard__hrs">${fmtHours(g.playtime_hours)}</span></div>
+        ${g.note ? `<p class="gcard__note">${esc(g.note)}</p>` : ""}
+      </article>`
+      )
+      .join("") || emptyMsg();
 
-  // ② 그 외 플레이한 게임 — 컴팩트 (리뷰 열 없음)
-  const moreGames = currentGames("more");
-  const more = moreGames.map((g) => `<tr>${cellsCommon(g)}</tr>`).join("");
-  $("#more-body").innerHTML = more || emptyRow(5);
+  // ② 그 외 — 컴팩트 카드 (리뷰 없음)
+  const more = currentGames("more");
+  const moreMax = Math.max(1, ...more.map((g) => g.playtime_hours || 0));
+  $("#more-list").innerHTML =
+    more
+      .map(
+        (g) => `
+      <article class="gcard gcard--compact">
+        <div class="gcard__top">
+          <h3 class="gcard__title">${esc(g.title)}</h3>
+          <span class="dot ${g.cleared ? "dot--yes" : ""}" title="${g.cleared ? "엔딩" : "진행"}"></span>
+        </div>
+        <div class="gcard__meta"><span class="gc gc--plat">${esc(g.platform)}</span>${genreChips(g.genre)}</div>
+        <div class="gcard__time">${timeBar(g.playtime_hours, moreMax)}<span class="gcard__hrs">${fmtHours(g.playtime_hours)}</span></div>
+      </article>`
+      )
+      .join("") || emptyMsg();
 
   const total = (state.data.games || []).filter((g) => g.tier === "more").length;
-  const shown = moreGames.length;
   const el = $("#more-count");
-  if (el) el.textContent = shown === total ? `장르별로 폭넓게 경험 · ${total}개` : `${shown} / ${total}개 (필터 적용)`;
+  if (el) el.textContent = more.length === total ? `장르별로 폭넓게 경험 · ${total}개` : `${more.length} / ${total}개 (필터 적용)`;
 }
 
-function emptyRow(cols) {
-  return `<tr><td colspan="${cols}" style="padding:24px;color:var(--ink-faint)">해당 플랫폼의 기록이 없습니다.</td></tr>`;
+function emptyMsg() {
+  return `<p class="empty">해당 플랫폼의 기록이 없습니다.</p>`;
 }
 
 function renderHighlights() {
