@@ -32,6 +32,16 @@
       "tier": "deep"
     },
     {
+      "title": "모바일 게임 (Google Play 게임즈)",
+      "platform": "모바일",
+      "genre": [],
+      "playtime_hours": null,
+      "cleared": false,
+      "rating": null,
+      "note": "한 게임에 얽매이지 않고 여러 장르를 폭넓게 · Google Play 게임즈 Lv.25 · 통합 업적 596개 (좀놀던괴물)",
+      "tier": "deep"
+    },
+    {
       "title": "Monster Hunter: World",
       "platform": "Steam",
       "genre": [
