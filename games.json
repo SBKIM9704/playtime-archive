@@ -1358,9 +1358,9 @@
         "협동"
       ],
       "playtime_hours": 10.8,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
-      "note": "밈 세계관을 협동 탈출 호러로. 분위기와 팀워크가 전부.",
+      "note": "백룸 협동 공포 — 멀티플레이 보통 난이도로 최종 엔딩까지 완파 (Squad)",
       "tier": "deep",
       "achievement_done": 1,
       "achievement_total": 34,
@@ -1368,7 +1368,13 @@
       "steam_genres": [
         "액션",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1943950.png",
+        "ach": "Squad",
+        "date": "2024-02-20",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1943950/achievements"
+      }
     },
     {
       "title": "It Takes Two",
