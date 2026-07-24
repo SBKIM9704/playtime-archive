@@ -130,7 +130,7 @@ const genreChips = (gs) => (gs || []).map((g) => `<span class="gc">${esc(g)}</sp
 const steamGenreTitle = (g) =>
   g.steam_genres && g.steam_genres.length ? ` title="Steam 공식 장르: ${esc(g.steam_genres.join(", "))}"` : "";
 const clearedBadge = (g) =>
-  `<span class="badge ${g.cleared ? "badge--yes" : "badge--no"}">${g.cleared ? "● 엔딩" : "○ 진행"}</span>`;
+  `<span class="badge ${g.cleared ? "badge--yes" : "badge--no"}">${g.cleared ? "엔딩" : "진행"}</span>`;
 
 // tier 내 최대값 대비 플레이타임 바
 function timeBar(h, max) {

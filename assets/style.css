@@ -16,6 +16,7 @@
   --amber:     #f5b942;
   --amber-dim: #b8862a;
   --cyan:      #4fd1c5;
+  --green:     #5fd88a;
   --radius:    14px;
   --mono:  "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --sans:  "IBM Plex Sans KR", system-ui, -apple-system, sans-serif;
@@ -372,13 +373,40 @@ main { max-width: 1080px; margin: 0 auto; padding: 0 24px 40px; }
 .badge {
   font-family: var(--mono);
   font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
   white-space: nowrap;
-  padding: 3px 8px;
+  padding: 4px 10px 4px 8px;
   border-radius: 999px;
   flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
-.badge--yes { color: #1a1206; background: var(--amber); font-weight: 600; }
-.badge--no { color: var(--ink-faint); border: 1px solid var(--line); }
+.badge::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+}
+.badge--yes {
+  color: var(--green);
+  background: rgba(95, 216, 138, 0.12);
+  border: 1px solid rgba(95, 216, 138, 0.34);
+}
+.badge--yes::before {
+  background: var(--green);
+  box-shadow: 0 0 7px rgba(95, 216, 138, 0.7);
+}
+.badge--no {
+  color: var(--ink-faint);
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid var(--line);
+}
+.badge--no::before {
+  border: 1.5px solid var(--ink-faint);
+  background: transparent;
+}
 
 .dot {
   width: 9px; height: 9px;
