@@ -31,7 +31,6 @@ async function init() {
   buildEndingFilter();
   renderGenreChart();
   renderList();
-  renderHighlights();
   wireControls();
 
   const updated = state.data.profile?.updated;
@@ -229,29 +228,6 @@ function proofBlock(g) {
       </a>`;
 }
 
-function renderHighlights() {
-  const hls = state.data.highlights || [];
-  $("#highlights").innerHTML = hls
-    .map(
-      (h) => `
-      <article class="hl">
-        <h3 class="hl__title">${esc(h.title)}</h3>
-        <div class="hl__block">
-          <div class="hl__label fun">◆ 재미 요소</div>
-          <p class="hl__text">${esc(h.fun || "")}</p>
-        </div>
-        <div class="hl__block">
-          <div class="hl__label structure">◆ 구조적 이유</div>
-          <p class="hl__text">${esc(h.structure || "")}</p>
-        </div>
-        <div class="hl__block">
-          <div class="hl__label weakness">◆ 아쉬운 점</div>
-          <p class="hl__text">${esc(h.weakness || "")}</p>
-        </div>
-      </article>`
-    )
-    .join("");
-}
 
 function wireControls() {
   $("#platform-filter").addEventListener("click", (e) => {
