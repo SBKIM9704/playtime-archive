@@ -42,11 +42,17 @@ function renderProfile() {
   const p = state.data.profile || {};
   if (p.handle) $("#handle").textContent = `// ${p.handle}`;
   if (p.name) $("#name").textContent = p.name;
-  // 각 항목을 nowrap 단위로 묶고 " · " 에서만 줄바꿈
-  $("#tagline").innerHTML = (p.tagline || "")
-    .split(" · ")
-    .map((s) => `<span class="tag-item">${esc(s)}</span>`)
-    .join('<span class="tag-sep"> · </span>');
+  // 각 항목을 nowrap 단위로 묶고 " · " 에서만 줄바꿈 (없으면 숨김)
+  const tagEl = $("#tagline");
+  if (p.tagline) {
+    tagEl.style.display = "";
+    tagEl.innerHTML = p.tagline
+      .split(" · ")
+      .map((s) => `<span class="tag-item">${esc(s)}</span>`)
+      .join('<span class="tag-sep"> · </span>');
+  } else {
+    tagEl.style.display = "none";
+  }
   const introEl = $("#intro");
   if (p.intro) { introEl.textContent = p.intro; introEl.style.display = ""; }
   else { introEl.style.display = "none"; }

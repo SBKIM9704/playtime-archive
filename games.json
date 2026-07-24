@@ -2,7 +2,7 @@
   "profile": {
     "name": "김승범",
     "handle": "player_one",
-    "tagline": "장르 불문 41 타이틀 엔딩 · LoL 다이아 서포터 · FC 온라인 챌린지1",
+    "tagline": "",
     "intro": "",
     "updated": "2026-07-23"
   },
@@ -251,7 +251,7 @@
         "메트로배니아"
       ],
       "playtime_hours": 73.2,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
       "note": "메트로배니아의 탐험과 로그라이크의 반복을 합친 손맛 중심 액션.",
       "tier": "deep",
@@ -262,7 +262,13 @@
         "액션",
         "어드벤처",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/588650.png",
+        "ach": "The last rampart falls...",
+        "date": "2023-07-22",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/588650/achievements"
+      }
     },
     {
       "title": "Frostpunk",
