@@ -646,9 +646,9 @@
         "헌팅액션"
       ],
       "playtime_hours": 30.5,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
-      "note": "무리 생태와 이음새 없는 필드로 '살아있는 사냥터'를 지향한 최신작.",
+      "note": "메인 스토리 최종 퀘스트 'What Lies Ahead' 완료 — 메인 엔딩 (One Corner of the World). HR100·금관 등 엔드게임 파밍은 보류",
       "tier": "deep",
       "achievement_done": 28,
       "achievement_total": 50,
@@ -657,7 +657,13 @@
         "액션",
         "어드벤처",
         "RPG"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/2246340.png",
+        "ach": "One Corner of the World",
+        "date": "2025-03-01",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/2246340/achievements"
+      }
     },
     {
       "title": "Sea of Thieves",
