@@ -699,9 +699,9 @@
         "퍼즐"
       ],
       "playtime_hours": 28.1,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
-      "note": "가방 칸 배치가 곧 빌드. 인벤토리 관리를 로그라이크로 만든 발상.",
+      "note": "인벤토리 로그라이크 — 얼리액세스(2023.10) 시절 28시간 플레이로 여러 캐릭터 해금·던전 클리어. 당시 스팀 도전과제 미구현이라 증빙 불가 (1.0 정식출시는 2023.11)",
       "tier": "deep",
       "achievement_done": 0,
       "achievement_total": 35,
