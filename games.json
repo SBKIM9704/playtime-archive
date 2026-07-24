@@ -427,16 +427,22 @@
         "FPS"
       ],
       "playtime_hours": 49.1,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
-      "note": "파괴 가능한 동굴 + 직업별 역할 분담. 협동이 연출이 아니라 필수인 구조.",
+      "note": "스토리 엔딩 없는 서비스형 협동 슈팅 — 최고 난이도 Hazard 5 클리어 + 딥다이브 45분 컷 완수 (엔드게임 완파)",
       "tier": "deep",
       "achievement_done": 25,
       "achievement_total": 69,
       "achievement_pct": 36,
       "steam_genres": [
         "액션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/548430.png",
+        "ach": "Going Lethal",
+        "date": "2024-03-18",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/548430/achievements"
+      }
     },
     {
       "title": "Enshrouded",
