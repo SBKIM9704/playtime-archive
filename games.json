@@ -2129,9 +2129,9 @@
         "호러"
       ],
       "playtime_hours": 3.8,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
-      "note": "",
+      "note": "정신병원·고아원 두 챕터 클리어 (출시 당시 전체 스토리) — 이후 추가된 숲(Forest) 챕터는 미완",
       "tier": "more",
       "achievement_done": 18,
       "achievement_total": 35,
@@ -2141,7 +2141,13 @@
         "어드벤처",
         "인디",
         "시뮬레이션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1592290.png",
+        "ach": "Leaving foster care",
+        "date": "2025-04-20",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1592290/achievements"
+      }
     },
     {
       "title": "Zort",
