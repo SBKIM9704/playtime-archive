@@ -2,7 +2,7 @@
   "profile": {
     "name": "김승범",
     "handle": "player_one",
-    "tagline": "장르 불문 39 타이틀 엔딩(Steam 검증) · LoL 다이아 서포터 · FC 온라인 챌린지1",
+    "tagline": "장르 불문 40 타이틀 엔딩(Steam 검증) · LoL 다이아 서포터 · FC 온라인 챌린지1",
     "intro": "",
     "updated": "2026-07-23"
   },
@@ -1402,7 +1402,7 @@
         "호러"
       ],
       "playtime_hours": 9.1,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
       "note": "",
       "tier": "more",
@@ -1414,7 +1414,13 @@
         "어드벤처",
         "인디",
         "시뮬레이션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1326470.png",
+        "ach": "FOUGHT DEMONS",
+        "date": "2023-03-11",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1326470/achievements"
+      }
     },
     {
       "title": "Ori and the Blind Forest: Definitive Edition",
