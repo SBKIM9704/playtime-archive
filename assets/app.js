@@ -92,7 +92,7 @@ function currentGames(tier) {
   const s = state.sort;
   games.sort((a, b) => {
     if (s === "title") return a.title.localeCompare(b.title, "ko");
-    if (s === "rating") return (b.rating || 0) - (a.rating || 0);
+    if (s === "achievement") return (b.achievement_pct ?? -1) - (a.achievement_pct ?? -1);
     return (b.playtime_hours || 0) - (a.playtime_hours || 0); // playtime
   });
   return games;
@@ -118,9 +118,9 @@ function achRow(g) {
   if (g.achievement_pct == null) return "";
   const p = g.achievement_pct;
   const done = g.achievement_done, total = g.achievement_total;
-  return `<div class="gcard__ach" title="과제 달성 ${done}/${total}">
+  return `<div class="gcard__ach" title="업적 ${done}/${total} 달성">
         <div class="abar"><div class="abar__fill" style="width:${Math.max(3, p)}%"></div></div>
-        <span class="gcard__achv">실적 ${p}%</span>
+        <span class="gcard__achv">업적 ${p}%</span>
       </div>`;
 }
 
@@ -240,7 +240,7 @@ function wireControls() {
 /* CSV export — 5단계 스프레드시트 정식 제출용, 같은 데이터에서 파생 */
 function exportCSV() {
   const games = state.data.games || [];
-  const header = ["타이틀", "플랫폼", "장르(큐레이션)", "Steam공식장르", "플레이타임(시간)", "클리어", "실적%", "평점", "구분", "한줄평"];
+  const header = ["타이틀", "플랫폼", "장르(큐레이션)", "Steam공식장르", "플레이타임(시간)", "클리어", "업적%", "평점", "구분", "한줄평"];
   const lines = [header, ...games.map((g) => [
     g.title,
     g.platform,

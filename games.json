@@ -9,7 +9,7 @@
   "games": [
     {
       "title": "리그 오브 레전드",
-      "platform": "PC",
+      "platform": "온라인게임",
       "genre": [
         "AOS"
       ],
@@ -21,7 +21,7 @@
     },
     {
       "title": "FC 온라인",
-      "platform": "PC",
+      "platform": "온라인게임",
       "genre": [
         "스포츠"
       ],
