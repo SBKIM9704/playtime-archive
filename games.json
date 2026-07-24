@@ -1113,6 +1113,28 @@
       }
     },
     {
+      "title": "We Were Here Expeditions: The FriendShip",
+      "platform": "Steam",
+      "genre": [
+        "협동",
+        "퍼즐"
+      ],
+      "playtime_hours": 1.8,
+      "cleared": true,
+      "rating": null,
+      "note": "2인 협동 — 모든 시련을 완료하고 배 진수 (Ship Dip!)",
+      "tier": "more",
+      "achievement_done": 7,
+      "achievement_total": 12,
+      "achievement_pct": 58,
+      "proof": {
+        "image": "./assets/proofs/2296990.png",
+        "ach": "Ship Dip!",
+        "date": "2023-09-27",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/2296990/achievements"
+      }
+    },
+    {
       "title": "Baldur's Gate 3",
       "platform": "Steam",
       "genre": [
