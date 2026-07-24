@@ -51,14 +51,12 @@ function renderStats() {
   const games = state.data.games || [];
   const totalMinutesFree = games.reduce((s, g) => s + (g.playtime_hours || 0), 0);
   const cleared = games.filter((g) => g.cleared).length;
-  const platforms = new Set(games.map((g) => g.platform)).size;
   const totalHours = Math.round(totalMinutesFree);
 
   const cards = [
     { num: games.length, unit: "개", label: "기록된 게임", accent: false },
     { num: cleared, unit: "개", label: "엔딩 · 클리어", accent: true },
     { num: totalHours.toLocaleString("ko-KR"), unit: "시간", label: "누적 플레이타임", accent: false },
-    { num: platforms, unit: "종", label: "플랫폼", accent: false },
   ];
 
   $("#stats").innerHTML = cards
