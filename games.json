@@ -710,9 +710,9 @@
         "액션"
       ],
       "playtime_hours": 25,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
-      "note": "과로에 시달리는 사신이라는 설정부터 매력. 스타일리시 로그라이크 액션.",
+      "note": "8구역 최종보스 '시간(Time)' 처치로 메인 스토리 엔딩 + 전 서브 서사 퀘스트 완료 (진엔딩 True Death는 미달성)",
       "tier": "deep",
       "achievement_done": 28,
       "achievement_total": 37,
@@ -720,7 +720,13 @@
       "steam_genres": [
         "액션",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1740720.png",
+        "ach": "Save Time",
+        "date": "2025-02-16",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1740720/achievements"
+      }
     },
     {
       "title": "Apex Legends",
