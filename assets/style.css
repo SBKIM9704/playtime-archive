@@ -420,6 +420,41 @@ main { max-width: 1080px; margin: 0 auto; padding: 0 24px 40px; }
 }
 .empty { padding: 24px; color: var(--ink-faint); }
 
+/* 이미지 증빙 카드 (넓게) */
+.gcard--wide {
+  grid-column: 1 / -1;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+.gcard__wideinfo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.gcard__imgwrap {
+  flex-shrink: 0;
+  display: block;
+  line-height: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  transition: border-color 0.15s ease;
+}
+.gcard__imgwrap:hover { border-color: var(--amber-dim); }
+.gcard__img {
+  width: 230px;
+  max-width: 42vw;
+  height: auto;
+  display: block;
+}
+@media (max-width: 640px) {
+  .gcard--wide { flex-direction: column; align-items: stretch; }
+  .gcard__img { width: 100%; max-width: 300px; margin: 0 auto; }
+  .gcard__imgwrap { margin: 0 auto; }
+}
+
 /* ---------- highlights ---------- */
 .highlights {
   display: grid;

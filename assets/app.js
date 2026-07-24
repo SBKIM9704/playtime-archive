@@ -143,14 +143,31 @@ function renderGenreChart() {
     .join("");
 }
 
+// 이미지 증빙이 있는 카드 (모바일 종합 등) — 넓게, 텍스트+이미지
+function imageCard(g) {
+  return `
+      <article class="gcard gcard--wide">
+        <div class="gcard__wideinfo">
+          <div class="gcard__top"><h3 class="gcard__title">${esc(g.title)}</h3></div>
+          <div class="gcard__meta"><span class="gc gc--plat">${esc(g.platform)}</span></div>
+          ${g.note ? `<p class="gcard__note">${esc(g.note)}</p>` : ""}
+        </div>
+        <a class="gcard__imgwrap" href="${esc(g.image)}" target="_blank" rel="noopener" title="원본 크게 보기">
+          <img class="gcard__img" src="${esc(g.image)}" alt="${esc(g.title)} 업적 증빙" loading="lazy">
+        </a>
+      </article>`;
+}
+
 function renderTables() {
   // ① 깊게 파고든 게임 — 한 줄 평 포함 카드
   const deep = currentGames("deep");
   const deepMax = Math.max(1, ...deep.map((g) => g.playtime_hours || 0));
   $("#deep-list").innerHTML =
     deep
-      .map(
-        (g) => `
+      .map((g) =>
+        g.image
+          ? imageCard(g)
+          : `
       <article class="gcard">
         <div class="gcard__top">
           <h3 class="gcard__title">${esc(g.title)}</h3>
