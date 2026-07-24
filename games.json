@@ -211,7 +211,7 @@
         "RPG"
       ],
       "playtime_hours": 82.2,
-      "cleared": false,
+      "cleared": true,
       "rating": null,
       "note": "끝이 없는 대신 목표를 스스로 세우게 만든다. 자율성을 존중하는 설계.",
       "tier": "deep",
@@ -222,7 +222,13 @@
         "인디",
         "RPG",
         "시뮬레이션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/413150.png",
+        "ach": "Local Legend",
+        "date": "2024-07-22",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/413150/achievements"
+      }
     },
     {
       "title": "Dead Cells",
