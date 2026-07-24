@@ -78,7 +78,13 @@
       "achievement_pct": 39,
       "steam_genres": [
         "액션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/250900.png",
+        "ach": "Wisp Baby",
+        "date": "2021-06-30",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/250900/achievements"
+      }
     },
     {
       "title": "Slay the Spire 2",
@@ -156,7 +162,13 @@
       "steam_genres": [
         "인디",
         "전략"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/646570.png",
+        "ach": "Ruby",
+        "date": "2024-04-02",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/646570/achievements"
+      }
     },
     {
       "title": "Valheim",
@@ -281,7 +293,13 @@
         "캐주얼",
         "RPG",
         "시뮬레이션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1868140.png",
+        "ach": "A Peaceful Blue Hole",
+        "date": "2023-08-01",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1868140/achievements"
+      }
     },
     {
       "title": "Sephiria",
@@ -324,7 +342,13 @@
       "steam_genres": [
         "액션",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1147560.png",
+        "ach": "The Final Battle of the First Hero",
+        "date": "2021-11-06",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1147560/achievements"
+      }
     },
     {
       "title": "No Rest for the Wicked",
@@ -429,7 +453,13 @@
         "액션",
         "인디",
         "RPG"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1145360.png",
+        "ach": "Is There No Escape?",
+        "date": "2022-01-05",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1145360/achievements"
+      }
     },
     {
       "title": "Hollow Knight",
@@ -450,7 +480,13 @@
         "액션",
         "어드벤처",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/367520.png",
+        "ach": "The Hollow Knight",
+        "date": "2023-11-20",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/367520/achievements"
+      }
     },
     {
       "title": "Balatro",
@@ -533,7 +569,13 @@
         "액션",
         "어드벤처",
         "대규모 멀티플레이어"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1604030.png",
+        "ach": "Slayer of the Immortal King",
+        "date": "2024-07-11",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1604030/achievements"
+      }
     },
     {
       "title": "Monster Hunter Wilds",
@@ -882,7 +924,13 @@
       "achievement_pct": 46,
       "steam_genres": [
         "액션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1057090.png",
+        "ach": "Destiny",
+        "date": "2023-04-23",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1057090/achievements"
+      }
     },
     {
       "title": "Conan Exiles Enhanced",
@@ -949,7 +997,13 @@
         "어드벤처",
         "캐주얼",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1341290.png",
+        "ach": "One Must Remain",
+        "date": "2022-05-28",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1341290/achievements"
+      }
     },
     {
       "title": "Baldur's Gate 3",
@@ -1052,7 +1106,13 @@
         "액션",
         "어드벤처",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1954200.png",
+        "ach": "Restore Balance",
+        "date": "2024-05-18",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1954200/achievements"
+      }
     },
     {
       "title": "Deep Rock Galactic: Survivor",
@@ -1092,7 +1152,13 @@
         "액션",
         "어드벤처",
         "RPG"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1282100.png",
+        "ach": "Forever is a Long Time Coming",
+        "date": "2025-02-12",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1282100/achievements"
+      }
     },
     {
       "title": "Tails of Iron",
@@ -1113,7 +1179,13 @@
         "액션",
         "어드벤처",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1283410.png",
+        "ach": "Defeat Ratnor Rodentson",
+        "date": "2024-08-08",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1283410/achievements"
+      }
     },
     {
       "title": "Human Fall Flat",
@@ -1301,7 +1373,13 @@
       "achievement_pct": 58,
       "steam_genres": [
         "액션"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/387290.png",
+        "ach": "The Journey Ends",
+        "date": "2023-04-22",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/387290/achievements"
+      }
     },
     {
       "title": "Dungeon Clawler",
@@ -1427,7 +1505,13 @@
         "어드벤처",
         "인디",
         "RPG"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/894020.png",
+        "ach": "Crow Gamer",
+        "date": "2024-09-02",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/894020/achievements"
+      }
     },
     {
       "title": "9 Kings",
@@ -1488,7 +1572,13 @@
         "액션",
         "어드벤처",
         "인디"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/1562700.png",
+        "ach": "Farewell",
+        "date": "2024-03-10",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/1562700/achievements"
+      }
     },
     {
       "title": "Portal 2",
@@ -1508,7 +1598,13 @@
       "steam_genres": [
         "액션",
         "어드벤처"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/620.png",
+        "ach": "Lunacy",
+        "date": "2019-12-10",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/620/achievements"
+      }
     },
     {
       "title": "Curse of the Dead Gods",
@@ -1691,7 +1787,13 @@
         "어드벤처",
         "인디",
         "대규모 멀티플레이어"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/3176060.png",
+        "ach": "The end",
+        "date": "2025-05-11",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/3176060/achievements"
+      }
     },
     {
       "title": "PEAK",
@@ -1798,7 +1900,13 @@
         "캐주얼",
         "시뮬레이션",
         "전략"
-      ]
+      ],
+      "proof": {
+        "image": "./assets/proofs/4297840.png",
+        "ach": "Light at the Bottom",
+        "date": "2026-07-15",
+        "url": "https://steamcommunity.com/profiles/76561198176814643/stats/4297840/achievements"
+      }
     },
     {
       "title": "Vampire Survivors",

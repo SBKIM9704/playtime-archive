@@ -29,6 +29,7 @@ async function init() {
   buildPlatformFilter();
   renderGenreChart();
   renderTables();
+  renderProofs();
   renderHighlights();
   wireControls();
 
@@ -207,6 +208,27 @@ function renderTables() {
 
 function emptyMsg() {
   return `<p class="empty">해당 플랫폼의 기록이 없습니다.</p>`;
+}
+
+// 엔딩 증빙 갤러리 — Steam 공식 도전과제 캡처 + 검증 링크
+function renderProofs() {
+  const proofs = (state.data.games || []).filter((g) => g.proof && g.proof.image);
+  const sub = $("#proof-sub");
+  if (sub) sub.textContent = `Steam 공식 도전과제 ${proofs.length}건 · 이미지/링크로 검증 가능`;
+  $("#proofs").innerHTML = proofs
+    .map(
+      (g) => `
+      <figure class="proof">
+        <figcaption class="proof__cap">
+          <span class="proof__game">${esc(g.title)}</span>
+          <a class="proof__link" href="${esc(g.proof.url)}" target="_blank" rel="noopener">🔗 Steam 검증</a>
+        </figcaption>
+        <a href="${esc(g.proof.url)}" target="_blank" rel="noopener" class="proof__imgwrap">
+          <img class="proof__img" src="${esc(g.proof.image)}" alt="${esc(g.title)} 엔딩 도전과제" loading="lazy">
+        </a>
+      </figure>`
+    )
+    .join("");
 }
 
 function renderHighlights() {
